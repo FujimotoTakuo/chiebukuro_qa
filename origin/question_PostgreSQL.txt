@@ -1,0 +1,360 @@
+POSTGRESQL むずかしいと おもいますか。
+postgresで24時間ごとの累計を取得するSQLを教えてください 以下のレコードがあり、24時間ごとの累計（sum_cnt ）を取得するSQLを教えていただきたいです。-- datetime cnt '2016-01-01 00:00' 1 '2016-01-01 18:00' 1 '2016-01-02 00:00' 0 '2016-01-02 18:00' 1 '2016-01-03 00:00' 1 '2016-01-03 18:00' 0 -- datetime cnt sum_cnt '2016-01-01 00:00' 1 1 '2016-01-01 18:00' 1 2 '2016-01-02 00:00' 0 2 '2016-01-02 18:00' 0 1 '2016-01-03 00:00' 1 1 '2016-01-03 18:00' 0 1 どうかよろしくお願いいたします。
+POSTGRESQL いいとおもいますか。
+sqlについての質問です。学生が正解した数 問題に解答した学生の数 1200 3440 589 3440 340 3440 2445 3440 4333 3440 上記のような場合に学生が正解した数から問題に解答した学生の数を割って正答率を求めたいのですが、学生が正解した数、問題に解答した学生の数はそれぞれsqlで持ってきています。 どちらもcount関数で取得しているのですが、取得するからむが全く一緒です。 そもそもsqlで持ってきた値をsqlで持ってきた値で割る方法もよくわかってないのですが、この場合どのように書けばいいのでしょうか。 それぞれを持ってきたsqlは下記のものになります。 学生の正解数 select count(a.questionid) from studentanswer a, student b, question c where a.subjectid = 4 and lower(a.studentanswer) = c.correctanswer and a.questionid = c.questionid and a.studentid = b.studentid and a.subjectid = c.subjectid group by c.questionid, a.questionid order by a.questionid; 学生全ての数 select count(a.questionid) from studentanswer a, question b where a.questionid = b.questionid and a.subjectid = 4 group by a.questionid; 宜しくお願いいたします。
+sqlについての質問です。学生が正解した数 問題に解答した学生の数 1200 3440 589 3440 340 3440 2445 3440 4333 3440 上記のような場合に学生が正解した数から問題に解答した学生の数を割って正答率を求めたいのですが、学生が正解した数、問題に解答した学生の数はそれぞれsqlで持ってきています。 どちらもcount関数で取得しているのですが、取得するからむが全く一緒です。 そもそもsqlで持ってきた値をsqlで持ってきた値で割る方法もよくわかってないのですが、この場合どのように書けばいいのでしょうか。 それぞれを持ってきたsqlは下記のものになります。 学生の正解数 select count(a.questionid) from studentanswer a, student b, question c where a.subjectid = 4 and lower(a.studentanswer) = c.correctanswer and a.questionid = c.questionid and a.studentid = b.studentid and a.subjectid = c.subjectid group by c.questionid, a.questionid order by a.questionid; 学生全ての数 select count(a.questionid) from studentanswer a, question b where a.questionid = b.questionid and a.subjectid = 4 group by a.questionid; 宜しくお願いいたします。
+POSTGRESQL 難しいと思いますか。
+国会議員の給料は年収2200万円ほどですが、妥当な年収はいくらだと思いますか？
+sqlでの質問なのですが、現在データベースにある学生の情報を元に得点分布や問題正答率などを算出しようとしているのですが、データベースの中に正答があり、それと学生の解答がイコールであればカウントするというsqlを書いています。 学生の回答はabcdの4択しかないのですが、データベースに入力するときに大文字で入力している場合と小文字で入力している場合があり、大文字で入力している生徒の解答と正答をイコールで結ぶことができません。 lowerを使いたいのですが、countをする中でどこにlowerを入れればいいのかがよくわからないので教えて欲しいです！ これだけではわからないかもしれませんが、私が現在書いてみたsqlはこれです。 select count(a.questionid) from studentanswer a, student b, question c where a.subjectid = 4 and a.studentanswer = c.correctanswer and a.questionid = c.questionid and a.studentid = b.studentid and a.subjectid = c.subjectid group by c.questionid, a.questionid order by a.questionid;
+POSTGRESQL しっかりしていますか。
+POSTGRESQL よくできていますか。
+POSTGRESQL さいこうですか。
+POSTGRESQL 難しいとおもいますか。
+POSTGRESQL 結構難しいですか。
+POSTGRESQL 重要でございますか。
+お世話になります。 postgresqlを使っていて質問があります。住所(文字列)が入っているテーブルがあるのですが、 ORDER BYで並べ替えをした場合に、正しい順番にソートされません。 アドレステーブル 住所 --------- 1丁目 10丁目 6丁目 下記のように並べ替えるにはどうしたらよいでしょうか？ 良いアドバイスをいただけましたら幸いです。 住所 --------- 1丁目 6丁目 10丁目
+POSTGRESQL よいでしょうか。
+POSTGRESQL むずかしいですか。
+POSTGRESQL いいとおもいますか。
+POSTGRESQL なかなか むずかしいですか。
+POSTGRESQL FINEで ございますか。
+POSTGRESQL いいものでございますか。
+POSTGRESQL いいものでございますか。
+POSTGRESQL 優秀でございますか。
+POSTGRESQL むずかしいですか。
+PostgreSQLの習得は中学生には難しいですか？
+PostgreSQLの人気は高いですか？
+POSTGRESQL いい感じですか。
+グーグルアラート 助けてください (>_<) 皆さんは、 グーグル アラート登録 メール来ますか？ 下記の条件登録で メール来ますか？条件例。site: 特定ドメインで or キーワードの 条件で、成功していますか？ グーグルヘルプページより https://support.google.com/websearch/answer/2466433?hl=ja 私の例、 or キーワードで 登録+site: 特定ドメインで登録 しても、メールが NO 来ないのです。 皆さんは、特定ドメインで メールが来ますか？ アラート登録例 例、私のキーワードの例です。 嵐（ファンクラブ OR コンサート OR チケット） site: www.detail.chiebukuro.yahoo.co.jp/ 人気キーワードで、 1時間に多く、新規ページができるのですが、 メールが0なのです ？？？？？？ アドバイスお願いできますか？ 皆さんは、アラート登録 アドバイスお願いできますか？ アラート 条件例。 or キーワードで 登録+site: 特定ドメインで登録 で、メール配信 成功したいのですが アドバイス お願いできますか？ 成功例があるなら、 サンプルとして、 キーワード例を教えてください。 私は 失敗ばかりなので
+ポスグレSQLなのですが あるテーブルの検索で取得した名称を前方一致で別テーブルの名称を検索したのですが SQL文を教えてください。
+POSTGRESQL むずかしいとおもいますか。
+PostgreSQL の SQL 文で悩んでおります。。。table_b の中から、table_a の table_b_id が、table_b の同じ group で最新でない一覧を取得したいです。 下記の例では table_b の id=4 だけを取得したいと考えています。 (group=A は table_b_id=2 となっており、table_b の timestamp が group=A の中で最新なので非取得) (group=B は table_b_id=3 となっており、table_b の timestamp が group=B の中で最新でないので取得) table_a ーーーーーーーーーーーーーーー id group table_b_id 1 A 2 2 B 3 table_b ーーーーーーーーーーーーーーー id group timestamp fruits 1 A 11111 りんご 2 A 22222 いちご 3 B 33333 みかん 4 B 44444 ぶどう この場合、どのような SQL 文を書けば良いのか、ご教授願えれば幸いです。
+postgresqlの長所と短所を教えてください。
+POSTGRESQL いい感じでございますか。
+PostgreSQL(8.0.2)でSQLServerのカーソルと同じことを実現するためにはどうしたらよいでしょうか。 SQLServerはある程度わかりますがPostgreSQLについては初心者です。 SQLServerで特定のデータベースに存在するすべてのテーブルの特定期間(列名は全て同じ)の レコード数の合計を求めたい場合、私は以下のようなクエリを書きます。 やりたいのはストアドプロシージャや関数ではなくクエリでやりたいです。 DECLARE @tblname VARCHAR(100) DECLARE cur_tblname CURSOR FOR SELECT name FROM sysobjects WHERE xtype = 'u' CREATE TABLE #TEMP (recordCnt INT) OPEN cur_tblname FETCH NEXT FROM cur_tblname INTO @tblname EXEC ('USE 特定のデータベース;' + 'INSERT INTO #TEMP SELECT COUNT(*) FROM ' + @tblname + 'WHERE 特定期間指定') FETCH NEXT FROM cur_tblname INTO @tblname SELECT SUM(recordCnt) FROM #TEMP CLOSE cur_tblname DEALLOCATE cur_tblname DROP TABLE #TEMP (現状PostgerSQLしか職場になく上記のクエリが正しく実行できるか確信はないですが、 カーソルに全ユーザーテーブル名を入れてそのテーブルごとの列数を#TEMPに入れて最後に合計するという方法です。) これと同じようなクエリをPostgreSQLで記述するとどうなりますか？ よろしくお願いします。
+POSTGRESQL すばらしいですか。
+POSTGRESQL いいとおもいますか。
+POSTGRESQL 大切ですか。
+POSTGRESQL いいもので ございますか。
+11ヶ月付き合ってた彼女に先週振られました。占いで復縁の可能性、方法など教えていただければ幸いです。自分 19960111 B型 相手 19960208 O型 お願い致します。この先好きな人ができる気がしません。少ないですがコイン50でお願い致します。
+POSTGRESQL 重宝ですか。
+POSTGRESQL すばらしいでございますか。
+POSTGRESQL いい感じですか。
+POSTGRESQL すばらしいとおもいますか。
+POSTGRESQL いいものでございますか。
+WebAPI用の画像データの管理と取得についてPHPでWebAPIを作成しています。 そのAPIからJSONでデータを取得表示しています。 そのデータに画像データを追加することになりました。 そこで以下の質問があります。 ①画像の管理方法 DBはPostgresqlです。 画像保存方法はDBにbytea型で保存した方がいいですか？ それともファイル保存してファイル名だけをDBに格納した方がいいですか？ ②データの取得方法 クライアント側はC#です。 byteデータとしてAPIから返して、そのデータをクライアント側で表示できますか? それともファイル保存(もしくはAPI側でDBからファイルに出力)でそのアドレスを返して、クライアント側で、そのアドレスから画像を取得しないといけませんか？ 通常どのような方法が取られるのでしょうか?
+POSTGRESQL いい感じでございますか。
+POSTGRESQL すばらしいですか。
+postgresqlのエンコードって変更できますか？SELECT datname, pg_encoding_to_char(encoding) FROM pg_database; datname | pg_encoding_to_char -----------+--------------------- template1 | SQL_ASCII template0 | SQL_ASCII postgres | SQL_ASCII これを datname | pg_encoding_to_char -----------+--------------------- template1 | UTF8 template0 | UTF8 postgres | UTF8 にしたいです。 読みだす時にどうのこうのではなく、 SELECT datname, pg_encoding_to_char(encoding) FROM pg_database; の結果がUTF8になる方法を探しています。
+OSS-DB認定資格と、データベーススペシャリスト試験はどちらが難しいですか？
+自作PCを知り合いに作っていただいたんですが、インストールも解凍もできなく。もうどうすることも。できないようになりました、ほんーーにほんと無知ですそんなですがよろしくお願いします、リネージュ２がやれるようにとおもってるんです・ 書き込みもよみずらくて申し訳ありません。出切れば今度いつもじゃありませんが時間があいてるときなど面倒みていただけたらとおもってるんですが、無理なことはけっして言いませんのでよろしくです。 パーツを買いなおさないといけないと思ってるんですが、お金あまり持ってないんで日時間かかると思います。大変な事いってますがまじめに取り組もうとおもってます。おねがいします
+POSTGRESQL しっかりしていますか。
+言語はC#、データベースはPostgreSQLでアプリケーションを構築しています。Shift-jisに存在しない漢字をユーザーが登録した場合、 照会する画面でヒットせずに 対象データが表示されません。 C#で文字コードをチェックして、 Shift-Jisに存在しない漢字の場合 登録できないようにしたいのです。 そのような便利なサンプルの関数などはありますでしょうか？ 下記のURLを見てみましたが いまいち分かりませんでした。 ご教授願います。 http://dobon.net/vb/dotnet/string/detectcode.html
+postgresqlでの多数桁の整数の比較について postgresql (9.3)でキーのカラムに16ケタの整数をbigint型で格納しています。WHERE句で同じ16桁の整数を指定して、それを検索条件にしたのですが、正しい結果が出ず、いろいろ試してみたところ、どうやら下二桁がうまく反応していない事が分かりました（法則は分かりませんでした）。 サイトのマニュアル等もチェックしてみましたが、調べきれませんでした 理由や対策を御存じの方がいたら教えて頂けないでしょうか。
+POSTGRESQL 大切でしょうか。
+こんにちは PostgreSQL のSELECT文について、以下のように複数のカラムの値を合計する上手い手法はありますか a b c 1 1 1 2 2 2 a 36
+PL/SQLとMY SQL の違いは何ですか？
+POSTGRESQL いいものでございますか。
+JSPとJavaとSQL：ログインと自動入力のやり方が分かりません。 自分の勉強用にショッピングサイトもどきを作っています。↓こういうことがしたいです↓ ログインページ（login.jsp）で「名前（name）」「パスワード(pass)」を入力 →logInControler.javaに飛ぶ →DBの「会員情報テーブル(member)」に飛ぶ →member内のnameとpassが同時に一致する列を検索 →（該当なし）ログインページにエラーメッセージ表示 「該当情報がみつかりませんでした」（太赤文字） →（該当あり）login.jsp内の 郵便番号・住所・電話番号記入欄に 該当列の情報を自動入力
+パソコンが故障したことから、postgresqlのバックアップファイル（pgdumpallにより出力したplainテキスト（.sql））からpsqlにおいてリストアしようとしているのですが、コマンドをタイプしても画像のとおり何も起こりません。 なにが間違っているのでしょうか？ 教えていただければ幸いです。
+POSTGRESQL 充実していますか。
+POSTGRESQL 慎重にしていますか。
+POSTGRESQL とても 良質ですか。
+Java Gold SE7（Java SE 7 Programmer II) 受験を目指し、Java言語を勉強中の者です。 現在、JDBCについて学習しております。RDBMSとしてPostgreSQLを使用しようと思います。 PostgreSQLのダウンロード、およびインストールはすでに済ませており、 Javaプログラムよりデータベースへのアクセスを行いたいのですが、上手く動作させることができません。 PostgreSQLの参考書やネット上で調べながら何度も確認をしますが、思い通りに動作させることができず、またその原因を掴むことができておりません。 pgAdmin3は動作し、こちらにてGUI操作で簡単なテーブル作成を行うことができました。 Javaプログラムを通し、GUI操作ではなくCUI操作にて（コマンドプロンプトを使用し）データベース処理を簡単に行いたいと考えております。 私のデータベース等に関する根本的な理解ができていない為と思われますが、今回の動作不良に関しましてPostgreSQL利用の準備に不足している点や誤っている点等を自分一人の力で見つけることができません。 PostgreSQLを使用し、Javaプログラムでデータベース処理を行いたい際には何を理解しておくべきか等を含め、お手数ですがどなたかご教授頂けますでしょうか。 宜しくお願い致します。 質問内容について説明不足等ございましたら、お知らせくださいますでしょうか。補足するように致します。 --------------------------------------------------------- 【動作させたいJavaコード】 import java.sql.*; class JDBCTest0624{ public static void main(String[] args){ Connection con = null; Statement stmt = null; ResultSet rs = null; try{ // 下記 urlの指定する文章("jdbc:..."の部分)についてもきちんと理解できておりません String url = "jdbc:postgres://localhost/data"; con = DriverManager.getConnection(url, "postgres","postgres"); stmt = con.createStatement(); String sql = "SQL文"; rs = stmt.executeQuery(sql); while(rs.next()){ System.out.println("出力させたい結果内容"); } }catch(SQLException e){ e.printStackTrace(); }finally{ try{ rs.close(); stmt.close(); con.close(); }catch(SQLException e){ e.printStackTrace(); } } } } --------------------------------------------------------- 【上記Javaコードの実行結果】 java.sql.SQLException: No suitable driver foundのエラーが出ます --------------------------------------------------------- 【追加の疑問点】 ①JDBCドライバの配置場所が誤っているのかどうか ②JDBCドライバのjarファイルを解凍する必要があるのかどうか、また、解凍した場合にはその解凍済ファイルの適切な配置場所について ---------------------------------------------------------- 【環境】 ■ OS : Windows8 ■ Windowsアカウント : 管理者権限有りアカウント名 "Admin" 管理者権限無しアカウント "postgres" ■ "postgres"アカウントパスワード : 設定済 ■ PostgreSQLを導入したWindowsアカウント名 : Admin ■ 設定ポート番号 : 5432 (デフォルト) ■ システム環境変数設定 : "(JDK用設定);C:\Program Files\PostgreSQL\9.3\bin; ■ postgresql.confファイル : 未修正 ■ pg_hba.confファイル : 未修正 ■ Java(JDK version) : jdk1.7.0_51 ■ PostgreSQL version : 9.3.13 ■ PostgreSQL 配置場所 : C:\Program Files\PostgreSQL\9.3 ■ PostgreSQL データベースクラスタ配置場所 : C:\Program Files\PostgreSQL\9.3\data ■ JDBCドライバ配置場所 : C:\Program Files (x86)\PostgreSQL\pgJDBC ■ JDBC取得済ドライバ : postgresql-9.4.1208.jar, postgresql-9.4.1208.jre6.jar, postgresql-9.4.1208.jre7.jar ■ Java開発環境 : JEdit, Eclipse
+POSTGRESQL 慎重でございますか。
+POSTGRESQL いい感じでございますか。
+少量データの処理時間を計り、大量データのときの処理時間を予測したいです。たとえば、 1000件を10秒 1万件を20秒 10万件を50秒で処理できた場合、 100万件、500万件といった場合に処理時間がどれだけかかるか、 求め方を知りたいです。 よろしくお願いします。
+POSTGRESQL 大切ですか。
+POSTGRESQL よくわかりますか。
+POSTGRESQL 役に立ちますか。
+postgresqで、以下の添付ファイルのようなDB内にjson形式で入っているデータからselect文でnameが鈴木のみを取り出すにはどのようにしたらよろしいでしょうか？テーブル名は「TEST」、バージョンはpostgresql 9.3.11になります。 よろしくお願いします。
+以下の表からsqlを使って写真にある3つの方法(in句,exist句,スカラー副問い合わせ)を使って平均価格未満のワインを一つでも持つ、didとdistinctを出す方法を教えてください。全くわからないのでどなたかご教授よろしくお願いします wid | name | did | price -----+------------------------+-----+------- 1 | シャブリ | A | 2400 2 | ジュヴレシャンぺルタン | A | 3000 3 | サンテミリオン | B | 5800 4 | オーメドック | B | 2200 5 | サンセール | C | 2800 6 | シャンパン | D | 4000 (6 行) postgres=# select*from vineyard; did | district -----+---------------- A | ブルゴーニュ B | ボルドー C | ロワール D | シャンパーニュ E | チリ (5 行)
+PostgreSQLの初心者です。 教えてください。 以下のようなテーブルがあります。テーブル名：test cal1,cal2,cal3 (PK:int),(char),(date) -------- -------- -------- 1-------A-------6/1---- 2-------A-------6/2---- 3-------B-------6/3---- 4-------B-------6/4---- 5-------A-------6/5---- 6-------A-------6/6---- 7-------C-------6/7---- このようなテーブルから -------- -------- -------- 2-------A-------6/2---- 4-------B-------6/4---- 6-------A-------6/6---- 7-------C-------6/7---- と出力することは可能でしょうか？（cal2を次のレコードと比較して異なれば対象元の行を抽出） 可能であればSQLを教えていただきたいです。 わかりにくい説明かもしれないですがよろしくお願いいたします。
+POSTGRESQL 重宝しますか。
+POSTGRESQL とても必要ですか。
+POSTGRESQL すばらしいでございますか。
+postgres の改行の置換ができないupdate blog comment = regexp_replace(comment, '\(\r\n|\r|\n|\t\)', ' ', 'g') でSQLを実行しても削除できないです。 オンラインのマニュアルみてもこれでいけるみたいですが、他にもいろいろ試したけどもどれもうまく反映できないです。 update answer_key_u set comment = replace(comment, '\r', ' ') も無理でした。 (PostgreSQL) 9.4.6 がバージョンです。 コンソールからのSQLです。
+postgresql いい感じでございますか。
+POSTGRESQL 必要でございますか。
+OpenStreetMapサーバの構築について、教えて頂きたいです。環境 VMware、OS：centOS6.6 64ビット PostGISにOSMデータをインポートするために、osm2pgsqlをインストールしたいのですが http://www.jurigis.me/2015/01/12/osm-download/ このページにある手順で進めると 一番最初の「./autogen.sh」時点で、「そのようなファイルやディレクトリはありません」 となってしまします。 確認すると実際ファイルが入っていないのですが、どうすればインストールできるでしょうか？ 他のHPで調べてもほとんどこの手順で進めているため、先に進めません。 PostGIS自体のインストールは完了しています。 OSMサーバどころか、サーバ構築自体ほぼ初心者なので、 できるだけ丁寧に教えて頂けると助かります。
+POSTGRESQL 慎重にされますか。
+SQLで名前を入れているとき、名前が被ったものを入れるときはどうすればいいのですか？ また、第一正規形の表を作る場合はどうすればいいか教えてください
+POSTGRESQL いい感じですか。
+POSTGRESQL 必要でございますか。
+POSTGRESQL 大切でございますか。
+POSTGRESQL すばらしいものでございますか。
+POSTGRESQL すばらしいでございますか。
+POSTGRESQL いいと思いますか。
+VisualStusio2015Community環境でC#でpostgreSQLに接続するために Npgsqlを使いたいのですが、 using Npgsql; を記述すると 「型または名前空間の名前'Npgsql'が見つかりませんでした」というエラーが出ます。 参考までに... .NET Framework 4.6.1 PostgreSQL9.6 Npgsql-2.2.3.0-net45 をインストール済みです PostgreSQLに外部から接続できるように ・pg_hba.conf に端末のホスト名を追加 ・postgresql.confのlistener_addressesのコメントアウトをはずして TCP/IP接続を受け付けることを確認済みです 他に何を設定すべきでしょうか。 もしくは、そもそも .NET Framework 4.6.1 Npgsql-2.2.3.0-net45 のバージョンの相性が良くないのでしょうか。 どなたかご教示願います。
+POSTGRESQL やはり大切ですか。
+postgresqlが使える格安のレンタルサーバーを教えて下さい。 httpサーバーの機能はあってもなくても良いです。WindowsＰＣ上のpgAdmin、自作のVBアプリからサーバー上のpostgresqlにアクセスします。 アプリはサーバーに置かないので、Windowsサーバーでなくても良いです。 phppgAdminが実装されていて、そのphppgAdmin経由か、サーバー上のphpからしかpostgresqlにアクセスできないのはＮＧです。 レンタルサーバーでもVPSでも何でも良いです。 容量は数ギガあれば良いです。 一つ「AWSのRDS for Postgresql」を紹介して頂きましたが、支払いが＄立てなので、できれば円で払えるのが良いです。 よろしくお願いします。
+POSTGRESQL ありがたいと思いますか。
+PostgreSQLのパス設定について 環境変数でPathを通したつもりなのにコマンドプロントからの起動ができず、困っています。ノートPC(Windows10)にPostgreSQL9.5をインストールし、作成した環境変数PGHOMEにインストールしたディレクトリのアドレスをコピーしたものを張り付け、PGUSER、PGPORTも設定し、PathにPGHOME\bin、を追加しました。 この状態でコマンドプロントを管理者で実行→psql（もしくはpsql -U ユーザー名）を行ったのですが、「'psql' は、内部コマンドまたは外部コマンド、操作可能なプログラムまたはバッチ ファイルとして認識されていません」が出てしまいます。 psql.exe自体からは問題なく起動できています。また、同時に設定したJavaのPathは通っていました。 PGHOMEのPathが通っていないということかと思うのですが、どうして通らないのかがわかりません。 PGHOME→PG_HOME、\bin→\bin\なども試してみましたが、ダメでした。 簡易な説明で申し訳ありませんが、上記手順をみて問題になりそうな点にお心当たりがあればご教示いただけますでしょうか。 よろしくお願いします！
+POSTGRESQL 優秀でございますか。
+POSTGRESQL とても大事で ございますか。
+POSTGRESQL すばらしいですか。
+POSTGRESQL いいものでございますか。
+POSTGRESQL たいしたものですか。
+POSTGRESQL すばらしいですか。
+POSTGRESQL すばらしいですか。
+POSTGRESQL いい感じですか。
+POSTGRESQL いいと思いますか。
+POSTGRESQL 必要でございますか。
+pgAdminやVBで自作のアプリでＩＯ可能なpostgresqlを置けるレンタルサーバーで格安なのを紹介して下さい。
+■postgreSQLのオブジェクト（テーブルやビュー等）の作成日時の参照について上記のとおり、postgreSQLのテーブル及びビュー、関数(plpgsql)の作成日を取得する方法はありませんでしょうか？あくまでオブジェクト自体の作成日なので、レコードの追加日などは不要です。 pg_classを見てもそれらしき情報もなく、ネットで検索しても参考になる情報がなく質問致しました。 pg_classに対し、tオブジェクトが追加された際に日時を別テーブルにinsertするような関数を作り、triggerでひっかけようとしましたが、pg_classに対し、トリガーを設定することはできませんでした（アクセス権の拒否） もし、他に方法等あればご教示いただけますようお願いします。 なお、当方の環境は以下の通りです。 ＯＳ：CentOS release 6.7 (Final) ＤＢ：psql (PostgreSQL) 9.3.6 よろしくお願いします。
+POSTGRESQL すごいと思いますか。
+POSTGRESQL いいものでございますか。
+POSTGRESQL 大切でございますか。
+MENTALASANYTHING たいせつでございますか。
+MENTALASANYTHING 必要でございますか。
+PostgreSQL9.5で、曜日を数値で取得する方法はありますか？ 月曜日なら1、火曜日なら2 と言った ExcelのWEEKDAY関数のような事がしたいのですが。
+POSTGRESQL すばらしいものですね。
+POSTGRESQL 大切に しますか。
+TomcatからPostgresqlの接続について教えてください（初心者です）。 設定を行ったのですが下記エラー（例外）が発生してしまいます。 手順で何か不足している点があるのでしょうか。＜実行手順＞ １．ドライバのインストール yum -y install postgresql-jdbc ２．context.xml 設定 <Resource name="jdbc/default" auth="Container" type="javax.sql.DataSource" driverClassName="org.postgresql.Driver" url="jdbc:postgresql://localhost:5432/testdb" username="test" password="Password" maxActive="4" maxIdle="10" maxWait="-1" /> ３．web.xml 設定 <resource-ref> <res-ref-name>jdbc/default</res-ref-name> <res-type>javax.sql.DataSource</res-type> <res-auth>Container</res-auth> </resource-ref> ＜エラー（例外）＞ org.apache.jasper.JasperException: javax.servlet.ServletException: java.sql.SQLException: Cannot create PoolableConnectionFactory (Method org.postgresql.jdbc4.Jdbc4Connection.isValid(int) is not yet implemented.)
+POSTGRESQL は優秀でございますか。
+pg_dump を実行中かどうかを知りたいです。 pg_dump でバックアップを取ると数時間かかるのですが、pg_dumpを実行している最中かどうかを把握する方法があれば教えてください。
+POSTGRESQL 慎重にされますか。
+エラー文が文字化けします。postgresqlでデフォルトでrailsアプリケーションを作成して、開発環境を整え終わり、本番環境をrake db:migrate RAILS_ENV=productionをしようとしましたが、画像のように文字化けしてエラー文が確認できません。 datebase.ymlには正しくpostgresの情報と一致させてutf8にしています。 scaffold機能やコントローラーでルーティングはまだしていない状態でエラーが出ました。 どなたか解決策をよろしくお願いいたします。
+railsについて質問です。Windowsを使っていて、 本番環境でサーバーを起動したいのですが、そのオプションコマンドを指定して実行してもdatebase.ymlにキーを追加しないといけないメッセージが出てきたのですがそのやり方がわかりません。 検索して調べてみましたが自分に合った解決策はありませんでした。 postgresqlを使っていて、そこに本番環境開発の項目を追加するためにdb:migrateのコマンドを用いて使用したいのですが、前述のようにエラーが発生してできません。 どうしたらできるようになりますか？
+SQｌで53300(接続過多)のエラーがでます javaでJbdcクラスからpostgres SQLにアクセスしてデータを取得しようとしましたが、 以下のエラーが出てしまいました。CONNECTION ERROR: MyDB ErrorCode:0 SQLState :53300 Message :FATAL: N C A g 検索で調べてみると、接続過多というエラーでPosgresSQLの設定のmax_connectionsをいじればよいことが分かりました。 初期値が100ではなく、大きい数を入れましたが、だま動揺のエラーが出る状態です。 ほかにどのような解決策があるのでしょうか？
+エラー文が文字化けします。postgresqlでデフォルトでrailsアプリケーションを作成して、開発環境を整え終わり、本番環境をrake db:migrate RAILS_ENV=productionをしようとしましたが、画像のように文字化けしてエラー文が確認できません。 datebase.ymlには正しくpostgresの情報と一致させてutf8にしています。 scaffold機能やコントローラーでルーティングはまだしていない状態でエラーが出ました。 どなたか解決策をよろしくお願いいたします。
+postgres SQLでサービスが起動できません。postgresql-x64-9.4の状態が空白だったので、起動しようと思い、 右クリックで開始しましたが、以下のエラーが出てしまいました。 ローカルコンピューター上のpostgresql-x64-9.4サービスは起動して停止しました。 サービスの中には、ほかのサービスやプログラムで使用されていない場合は自動的に停止するものが あります。 こういった場合、どう対処すればよいのでしょうか？
+POSTGRESQL いいと思いますか。
+POSTGRESQL 最高でございますか。
+好きなものを お答えください。
+POSTGRESQL いいと思いますか。
+レコードの存在チェックでCOUNT(*)を使っています。 ふとこれは重い処理じゃないかと思うようになりました。 しかし、代替案が思いつきません。 何かいい方法はないでしょうか？
+POSTGRESQL すばらしいですか。
+STDIO１０１ 懐かしいと 思いますか。
+postgreSQLいいかんじで ありますか。
+POSTGRESQL 必要でございますか。
+POSTGRESQL 大切ですか。
+postgreSQL いいと 思いますか。
+POSTGRESQL 活用しますか。
+POSTGRESQL 大切でございますか。
+ログを保存する際のSQLデータベースの効率的な使い方について。 普段はC++, C#などを使っているプログラマーです。データベースは普段使わないため、初心者です。以下のようなアプリケーションを作成する予定なのですが、データの永続化にSQLデータベースを使用したいと思います。 その場合に、以下のようなSQLデータベースの使い方は一般的に正しい（効率的な）方法でしょうか。 用途：複数のマシン（３０台程度）の状態を監視するアプリケーション テーブルAには、以下のようなカラムを作成： - MACアドレス (主Key) - マシン名 - マシンの状態 - IPアドレス ...などなど そして、マシンの状態変化の履歴をログとして残したいので、各マシンごとに異なるテーブルを作成する。 例えば、マシン１に対してテーブル１、マシン２に対してテーブル２のように。 （実際のテーブル名はマシンのマックアドレスなどを使って、個々のマシンと紐づけできるようにする） 個々のテーブルには以下のカラムを保存する： - シーケンシャルな番号 (主Key) - 日時 - ログのテキスト (「マシンがオフラインになりました。」など。仮に１日に１０００行ほど追加されると仮定） ユーザーが特定のマシンをアプリケーション内のマシン一覧から削除した場合、データベースのテーブルAからそのロウと、それに紐づいたログ用のテーブルも削除する仕様とする。 あまり現実的な話しではありませんが、仮に、頻繁にマシーンが追加、削除される環境（毎日１５台程度のマシンが入れ替わる）とした場合、テーブルを頻繁に追加、削除することになりますが、データベース内にゴミがたまるなどでパフォーマンスが落ちたりするのでしょうか。 多くのログを行単位でテーブルに保存し、それをテーブルごと削除するような使い方は正しいのでしょうか？ C++やC#のオブジェクトの考え方を無理やりSQLに持ち込んでしまっているのではないかと懸念しています。 もしデータベースに詳しい方、いらっしゃいましたらアドバイスを頂けますと幸いです。
+POSTGRESQL 大切なもので ございますか。
+POSTGRESQL 大切でございますか。
+POSTGRESQL 今大切ですか。 そうですね。
+POSTGRESQL すばらしいですか。
+POSTGRESQL 重要でございますか。
+postgreSQL いいと思われますか。
+突然の回答リクエスト申し訳ございません。以前、wordpressとpostgreSQL、PostgreSQL for WordPress (PG4WP)についての質問に ご回答いただきありがとうございました。 postgreSQLのバージョンに推奨があるかご存知でしょうか？ 不躾ですが、もし、ご存知でしたら お教えくださると幸いです。
+POSTGRESQL は大切でございますか。
+POSTGRESQL 非常に よいと 思いますか。
+POSTGRESQL 大切でございますか。
+POSTGRESQL は大事で ございますでしょうか。
+POSTGRESQL はしっかりしていますか。
+potsgresql は 大切ですか。
+postgrSQL いいもので ありますか。
+POSTGRESQL 丁寧にしていますか。
+POSTGRSQL 大事なもので ございますか。
+postgreSQL 活用しますか。
+POSTGRESQL 必要でございますか。
+postgreSQL どうお思いですか。
+POSTGRESQL は 大切ですか。
+RedshiftのSQLのIN句についてお伺いしたいことがあります。 RedshiftのSQLはPostgreSQLと同じとのことですが、 IN句の上限は何個でしょうか。PostgreSQLは２０００個となっておりましたが、２０００個の実行は出来ました。 ご存知の方、ご教示のほどよろしくお願いいたします。
+webサーバ（webサーバ1台、DBサーバ1台構成）をDMZに設置して外部からアクセスさせる場合、 通常DBサーバはDMZに置かずにLAN側に配置するべきなのでしょうか？
+サーバー素人です。 PHP(5.4)＆PostgreSQL(バージョン不明)に入れて使うCMSで いいものを教えてください。Woedressを考えていたのですがMySQLってのじゃないとダメぽいですし。 PostgreSQLに対応させる事も可能みたいですが、セキュリティ面に不安があると読みました。 なによりPHP5.4のサポートも終わってるので、 まずそこを変えないとセキリティうんぬん言えないのかなとも思ってます。 Movable Typeは使った事がないので学習コストで腰が引けます。 何か良い解決方法ございませんか？
+postgreSQL は必要で ございますか。
+postgresのデータ型について教えて下さい。 入力欄で生年月日の入力箇所がありますが、DB作成時はセレクトで作る予定だったので、 データ型は「date」にしていました。ですが、急遽、テキストで作る事になりました。 この場合、データ型はintegerに変えるべきでしょうか？ そもそも、データ型に詳しくなく、単純に日付関係なのでdateにしていました。 正直、違いがあまりわかりません。 変更必要であれば理由も教えて頂けると助かります。
+postgreSQLについてです。 公式サイトからWindows installersをダウンロードしました。インストールを終え、アプリケーションを起動させようとすると下記のようなエラーメッセージがでます。 There has been an error. Unable to write inside TEMP environment variable path. どなたか解決策を教えて下さい。
+flagについて質問です。 現在、cakephpの勉強で見よう見まねでログイン機能をAuthComponentを使用して作成しました。（login_id, passwordのみ） そこで新たに機能を追加したいのですが方法がわかりません。主に追加したい機能は以下です。 1 初回ログイン時は決められたID パスワードを入力してログインすると強制的に、 パスワード変更ページに飛ぶ。 2 変更ページでパスを変更するとログイン→TOPページへ飛ぶ 3 次回からは変更したパスワードと元々のIDでログイン→TOPページへ まずはテーブル定義からかと思いますが現状はこのような形でテーブルを作成しています CREATE TABLE login( id serial NOT NULL PRIMARY KEY, login_id text NOT NULL, password text NOT NULL, delete_flg boolean NOT NULL DEFAULT FALSE, created timestamp without time zone DEFAULT now() NOT NULL, modified timestamp without time zone ); 見当違いかもしれませんが、初回はflagを0で変更すると1 次回からflagが1のユーザーは変更ページには飛ばさず、login→top のような感じでしょうか ロジック、テーブル定義など、なんでも良いので情報いただけると助かります。
+postgres の挙動について教えて下さい。 私の場合ですが、root → su - postgres → psql -l →データベースの確認をしています。この場合、 postgres ユーザーに変更して、利用可能データベースを確認しています。 この確認時に「postgres」という空？のDBがあったので特に何も考えずに 『drop』 で 削除しました。（昔、試しで作ったDBかと思い、削除しました） しかし、その後 psql -l をしても「database "postgres" does not exist」と出ました。 てっきり、他のDBは表示されるかと思いました。 その後、色々試して、su- postgresでcreatedb postgres でpsql -l をすると、全てのDB が復活 していました。 これは、削除したpostgres が特別な何かであったのでしょうか？ 教えて下さい。
+POSGRESQL 難しくは ないですか。
+ファイルから読み込んだcsvデータを1行ずつ読んでDBのレコードを更新します。 複数のテーブルを更新するわけでもないのでトランザクション処理は不要でしょうか？ 行ロックして更新してもいいですが、どのみち更新時にエラー出たら対象行はスキップするだけです。 既にロックされてたら待たずにエラーにするのでいちいち行ロックする必要あるんですか？ 今のところ都度コミットで良いのですが 都度コミットしないのであればトランザクションは必須ってところですかね？
+PostgreSQL 9.3を利用しています。 データベースのファイルが破損したようで、 シングルモードで起動しようとしているのですが、 下記メッセージで、起動出来ない状況です。「PANIC: could not open critical system index 2662」 回避する方法はあるでしょうか？
+あるテーブルのレコードを更新するだけの場合、トランザクションは必要ありませんか？ 複数のテーブルを更新して整合性を意識するならロールバックは必要だとは思います。
+pgAdmin3を使うとPostgreSQLにパスワードなしでもアクセスできてしまいます。パスワードを入力しないとアクセスできないようにしたいのですが、どうしたら良いでしょうか？現状次のような状態です。 ●Linux ServerにSSH接続し、ユーザーをpostgresに切り替え、psqlコマンドを入力した場合 ・パスワードなしでEnterを押しても、PostgreSQLに接続できない。 ・間違ったパスワードを入力しても接続できない。 ・正しいパスワードを入力した場合のみ、PostgreSQLに接続できる。 ●クライアントPCにインストールされているpgAdmin3を使い、Linux Server上のPostgreSQLにアクセスしようとする場合 ・パスワードの欄が空のままでも接続できる。 ・間違ったパスワードを入力した場合、接続できない。 ・正しいパスワードを入力した場合、接続できる。 何故このような状態になるのでしょうか？「クライアントPCにインストールされているpgAdmin3を使い、Linux Server上のPostgreSQLにアクセスしようとする場合」の話ですが、パスワード欄が空のままでは接続できないようにしたいです。 「pg_hba.conf」の設定は次のようになっています。 local all all md5 host all all 127.0.0.1/32 md5 「postgresql.conf」の設定は、「listen_addresses」の行だけ次のように編集しています。 #listen_addresses = 'localhost'←元の設定 listen_addresses = '0.0.0.0'←自分がした設定（コメントを外し、「localhost」を「0.0.0.0」に変更）
+【SQL】referencesでエラー create table tbl1( id integer primary key ,name varchar(300) not null,aa varchar(100) not null ,ab varchar(100) not null ,unique(aa,ab) ); create table tbl2( id integer primary key aa varchar(100) references tbl1(aa) ab varchar(100) references tbl1(ab) ); ↑これを実行するとエラーが吐かれます。→ERROR: 被参照テーブル "tbl1" に、指定したキーに一致する一意性制約がありません tbl1の方はaaとabが両方被りなしという指定にしたいです。tbl2ではソレを外部キー参照を使って引っ張ってきたいです。どうすればいいですか？
+PostgreSQLで１つのテーブルだけエンコードを変えることはできますか？ 具体的にはEUC_JPをUTF8に変更したいです。
+postgresql.confが複数あります。 どのファイルが実際に使われているか確認するにはどうすればいいですか？ PostgreSQL9.4です。
+psqlのデータ型について質問です 性別のデータ型って適切なのって何でしょうか？例えば入力欄では男か女にセレクトボタンで選んでもらう方式ですが 男→１、女→２みたいな感じにしようかと思います。 この場合 boolenとかですかね？
+PostgreSQLに関して 起動時の話なのですが、詳しい方がいれば教えてください。heartbeat経由でPostgreSQLを起動してpsコマンドで見ると「/usr/pgsql-9.3/bin/postgres」となっており、再起動するために「/etc/init.d/postgresql-9.3 restart」で起動すると「/usr/pgsql-9.3/bin/postmaster」となります。 zabbixで管理しており、再起動時にプロセス名が変わるとzabbixが反応しなくなります。 質問としては、下記の2点です。 ①postgresとpostmasterのどちらで起動する方が正しいのか ②統一するにはどのように設定すれば良いか サーバー関連の知識に関しては若輩者ですので、こんなこと質問するなとか言われそうなのですが、どうかよろしくお願いします。
+LibreOfficeのbaseについてお尋ねします。 テーブルを開くと、正常にテーブルの内容が表示されるものと 添付画像のエラーが発生するテーブルとがあります。エラーの理由と対処方法をご教示よろしくお願いします。 尚、通常は、Common SQL Environment を利用してテーブル の内容表示や、SQLの実行を行っており、またPHPでも利用し ていますが、特に問題は起こっていません。(全角文字も含め) ＞実行環境 ○Windous7 64bit ○LibreOffice 5.0.4.2 ○Postgresql 9.1.12 EUC_JP
+PostgreSQLって何ですか？
+JDBCレルムによるFORM認証について教えてください。現在Webアプリケーションを作成しているのですが、 tomcatとPostgreSQLを使用して、ユーザのログイン処理を作成しています。ログイン画面は、ログインIDを「j_username」、パスワードを「j_password」、アクションを「j_security_check」を利用してログイン処理を行っています。 ここで、気になったのがDB内に登録されているパスワードはユーザが設定したパスワードのまま登録されていることです。つまり、DBを見ることができる人であれば、全ユーザのパスワードを見ることが出来てしまいます。 そこで、質問なのですがログインする際に、入力されたパスワードを暗号化してDB内の暗号化されたパスワードとの照合は「j_secutiry_check」を利用するときは可能なのでしょうか？ ※パスワードをDBに登録する際は暗号化されたものがDB内に登録されているものとする。 また、何か方法はありますでしょうか？ Web.xmlの設定は以下のようになっています。 <Realm className="org.apache.catalina.realm.DataSourceRealm" dataSourceName="jdbc/データベース" localDataSource="true" roleNameCol="ロール" userCredCol="パスワード" userNameCol="管理No" userRoleTable="テーブル" userTable="テーブル"/>
+バキュームって、何だべ？
+pgAdminⅢでデバッグが長すぎておちる こんにちは。pgAdmin3のデバッグを設定して、いざ実行すると以下のようになってしまいます。END手前まではスムーズにデバッグできるのに、その後ステップインするとずっと続いて終わらない。 デバッグを途中停止すると、これもずっと何かがおわらなく先へ進まない。 理由がわかる方がいらっしゃいましたらご回答よろしくお願いします。 ちなみに、SQLで関数の実行をするとすぐおわります。
+ペヤングソース焼きそば激辛はどこで買えますか
+共感しましたか。
+INSERTされたい？
+現在Postgresqlを使っているのですが、メモリ確保のためにvacuum コマンドを使用したところ psql: FATAL: could not write init file というエラーが出てpdqlが動かなくなりました。 何が原因でしょうか、またどうやったら直るでしょうか。 回答お願いします。
+pythonとpostgresqlについて質問です どちらとも初心者です。 pythomのdefで関数を指定し insertコマンドでその関数をテーブルに挿入することは可能ですか？ 例えばhelloという文字をmessageという関数に変換して insert文でmessage関数を指定して postgresqlのテーブルにhelloと表示させる ということをしたいです。 説明が下手ですいません 回答お願いいたします。
+PostgreSQL8.2とWindowsServer2003の組み合わせで質問です DDLを取得しようと思い、pd_dump -s --schema=public testdb > c:\db\a.sql と入力したところ、 パスワード入力を求められました 入力したところ、 pg_dump: [archiver (db)] connection to database "testdb" failed: FATAL: password authentication failed for user "Administrator" となりますが、Administratorに対して、OSのAdministratorのパスワードを入力してもやはり同じエラーになます ここで求められるパスワードはどのAdministratorのパスワードなのでしょうか・・・OS以外にはそんなユーザーはいないと思うのですが
+pgAdminでlocalhostのサーバを接続しようとしましたが、失敗して 以下のようなエラーが出てしまいました。 初歩的で申し訳ないですが、解決方法をご教授ください。Ｓｅｒｖｅｒ ｄｏｅｓｎ’ｔ ｌｉｓｔｅｎ The server doesn't accept connections: the connection library reports could not connect to server: Connection refused (0x0000274D/10061) Is the server running on host "localhost" (::1) and accepting TCP/IP connections on port 5432? could not connect to server: Connection refused (0x0000274D/10061) Is the server running on host "localhost" (127.0.0.1) and accepting TCP/IP connections on port 5432? If you encounter this message, please check if the server you're trying to contact is actually running PostgreSQL on the given port. Test if you have network connectivity from your client to the server host using ping or equivalent tools. Is your network / VPN / SSH tunnel / firewall configured correctly? For security reasons, PostgreSQL does not listen on all available IP addresses on the server machine initially. In order to access the server over the network, you need to enable listening on the address first. For PostgreSQL servers starting with version 8.0, this is controlled using the "listen_addresses" parameter in the postgresql.conf file. Here, you can enter a list of IP addresses the server should listen on, or simply use '*' to listen on all available IP addresses. For earlier servers (Version 7.3 or 7.4), you'll need to set the "tcpip_socket" parameter to 'true'. You can use the postgresql.conf editor that is built into pgAdmin III to edit the postgresql.conf configuration file. After changing this file, you need to restart the server process to make the setting effective. If you double-checked your configuration but still get this error message, it's still unlikely that you encounter a fatal PostgreSQL misbehaviour. You probably have some low level network connectivity problems (e.g. firewall configuration). Please check this thoroughly before reporting a bug to the PostgreSQL community.
+swsの意味を教えて下さい。
+SQLは難しいですか？
+スマホですか？ iPhoneそれともandroid？
+今二つのラズベリーパイを使って、画像をアップロードしようと考えています。一つはカメラ用に、もうひとつはサーバー用に使っています。phpを使って送りたいと考えています。パッケージはmotionを使っていています。motionは動きを検知した時に自動で画像をとってくれます。画像をとった時にサーバーに送りたいと考えているのですが、どのようなプログラムをくめばよろしいですか？ちなみにデータベースサーバーはpostgreSQLを使っています。
+PostgreSQL とは何か
+PostgreSQLについてお知恵をお貸しいただけないでしょうか。 customerというテーブルに購入者ID、購入日時、購入商品名が入っています。このテーブルのデータを使って下記のようなデータを出したいと思っています。 ━━━━━━━━━━━━ 購入者IDと、その購入者が初回に購入した商品名。 また、その購入者が二回目、三回目、四回目・・・・十回目に購入した商品名。 ━━━━━━━━━━━━ 最終的にはこのデータを使って下記のようなグラフを描画しようと思っています。 ━━━━━━━━━━━━ ◆縦軸：購入者数 ◆横軸：何度目の購入だったか（例：初回、二回目、三回目、四回目・・・・十回目） ※最大十回まで ◆棒グラフ：商品名 ━━━━━━━━━━━━ このグラフを見て、「初回は◯◯が良く売れるが、3回目くらいからは△△が良く売れるようになる」 といったデータを確認したいです。 BIツールを使ってビジュアル化しようと思うので、SQLでは下記の要素を抽出したいです。 ・購入者ID ・購入商品名 ・購入番号（first,second,third...tenth） この、購入番号をどうやって出せばよいかわからず困っております。 どのようにクエリを書けばよいでしょうか？ 何卒よろしくお願いします。
+PostgreSQLで数値型がNULLの時にSELECT文で「－」を表示させるようにしたいです。 例えば、 カラムAAAがNULLの時にSELECTで「－」を表示させたいと思います。ただ、カラムAAAはintegerなのですが、下記のように記述するとエラーになります。 select BBB,CCC, case when AAA is null then '－' else keiki_num end DDD from table_name ERROR: 型integerの入力構文が無効です: '－' 下記だと通ります。 select BBB,CCC, case when AAA is null then 0 else keiki_num end DDD from table_name これは対処方法はありませんでしょうか？ テーブルの設定をintegerからstringに変更する事はできないので、SQL側でなんとかしたいです。 初歩的な質問かもしれませんが、よろしくお願いいたします。
+JDBC→pgpool-Ⅱ→PostgresqlDB接続について いつもお世話になってます。現在勉強の一貫でjavaサーブレットJDBC→pgpool-Ⅱ→PostgresqlDBサーバへの接続を試みようとしています。 ですが、参考になる資料が見つからず上記構成でDBへ接続は可能なのか、 また可能な場合どのように記述すれば動作するのか分かりかねています。 情報が足りないのは承知していますが、 どうぞよろしくお願いいたします。
+データベースのインデックスについて 使っているのはpostgresqlです。参照するとき、 select * from table1 where a=? and b=?; とするとき、 以下のようにaとbを合わせたインデックスを作ると早くなるでしょうか CREATE INDEX index1 ON table1 (a, b); それとも、以下のように別々の方が良いでしょうか CREATE INDEX index1 ON table1 (a); CREATE INDEX index2 ON table1 (b); データベース内部の処理になりますが、 そもそも、whereでandで条件をつなげて2つのキーをもとに検索するとき、 a=?を探してからその中からb=?を探すのか、a=?とb=?どっちも一致するものを一発で探しているのでしょうか？ 後者なら、２つ合わせた方が早そうだと考えられますが... よろしくお願いします。
+postgresqlとは？
+SQLで、2歳以上3歳未満をANDを使って作りたいのですが、 where age>=2 and age<3ではダメのようです。 betweenでもできるようですが、andではできませんか？
+sqlでの質問です。ポスグレを使用です。 カラムa カラムb 01 ○ 01 × 02 × 03 ○ 03 × 04 ×カラムaの重複をなくして、全件を出したいと思います。その際のカラムbは、◯を優先してだしたいのですが、どうすればよいでしょうか。 カラムbは○か×かの2種類しかありません。 想定結果を下記の通りにしたい感じです。 カラムa カラムb 01 ◯ 02 × 03 ◯ 04 × よろしくお願いいたします。
+ユビキタスとはなんですか？
+ＯＳにはどのような役割がありますか？
+タスクが実行状態の時に入出力動作が発生した場合、 タスクの状態はどうなりますか？
+PostgreSQLでpgadmin3を利用しており、タブ区切りのtxtファイルについて集計などしたいと考えています。しかし、テーブルを作ってｔｘｔファイルを読み込む段階でヘッダのチェックボックスが死んでおり、一行目がヘッダになっているため方が合わずうまくインポートできない状態です。 データの型を選ぶとき長さを入れなかったのが問題でしょうか? また、char[]でなくcharを選んだのが問題でしょうか?この2つの違いがまだよくわかっていません。 わかる方よろしくお願い致します。
+自宅データベースサーバーを立てようと考えてますが どういう用途で使ったらいいですかね。 自宅サーバー運用してる方いらっしゃいましたら 参考までに教えて下さい。なお、OSはLinuxかFreebsdでmysqlかpostgresqlを 使いたいです。
+単純なSQL構文でエイリアスを用いると、パフォーマンスが良くなるのは何故でしょうか。SQL構文のパフォーマンスをあげるのに、テーブル結合など複雑な構文ではないにも関わらず、 テーブル名に別名を付けると効率が良くなるとネットの記事に頻繁に出てきたのですが、 その理由が書いていなかったので、よくわかりませんでした。 何故、テーブル名にエイリアスをつけるとパフォーマンスが向上するのでしょうか？ 一応、書いてあった記事はここで、SQL、パフォーマンスで検索をかけると頻繁にでてきました。 http://itpro.nikkeibp.co.jp/article/COLUMN/20060111/227105/
+--^--^--^--^--^--^--^--^--^--^--^--
+成績管理のSQLでの計算方法 学生の履修科目の平均点を出したいのですが 結合を使わずに複数のテーブルにまたがる条件を リストにする場合どうすればいいでしょうか 状況としては学籍番号-名前 学籍番号-科目-得点 という２つのテーブルがあって 学生の全科目の平均得点のリストを 学籍番号表示でなく名前表示で 作成したいのですがどうすればいいでしょうか
+エクセルからアクセス以外のデータベースに接続（ポストグレ）したいのですが、 どうやってやったら良いのか、全く見当もつきません。 ネットで検索しても、アクセスへの接続ばかり？？なのか、なんなのか、さっぱりわかりません。 どうしたら接続できますか？？
+pgsqlで以下のようなテーブルがあります table名 : uriage 商品名｜売上｜日付 aaa|1000|2015-7-1 bbb|2000|2015-7-1ccc|300|2015-7-1 aaa|1500|2015-7-2 bbb|2000|2015-7-2 ccc|500|2015-7-2 aaa|3000|2015-7-3 bbb|2000|2015-7-3 上記テーブルから以下のような結果を出力したいのですが、可能でしょうか？ 商品名|売上|3日間の売上平均 aaa|3000|1500 bbb|2000|2000 ccc|-(もしくは0)|400 商品名は商品名そのままで、売上には2015-7-3の売上、売上平均の部分には3日間分の売上平均を出したいです。 よろしくお願いします。
+生きてるって何ですか？
+PostgreSQLでvarchar型をtime型にCASTして時間の集計を求めているのですが、秒単位まで表示されるのを分単位までの表示に絞りたいです。どのようにすれば分単位までの表示にできるでしょうか？ 色々調べてみましたが、調べ方が悪いのかそれらしきものが見つかりませんでした。 わかる方ご教授お願いいたします。
+CSEでpostgreSQLサーバに接続を使用としたところ画像のようなエラーが帰ってきました。これはどういうエラーですか？ちなみに、CSEのバージョンは1.6.1 ローカルへのDBの接続（DBサーバから自分のDBサーバに接続できる）は可能です。 DB名はapadbです。
+postgresでカラム内のデータ毎で採番する方法がわからなくて困っています -- code id A 1 A 2 B 1 C 1 D 1 D 2D 3 こんな風にidに採番したいです group byなど使用すると重複カラムのcodeが削除されます 関数partition byを利用すればできそうな気がしたのですが postgresのバージョンが古くて使えない状態です サブクエリでどのように組んだらいいかご教授お願いします 宜しくお願いします
+データベースのチューニングを勉強したいのですが、良い本やサイトなどあれば教えてください。PostgreSQLを使っています。 今はマニュアルを読んでいます。
+postgresでselect文の結果を、フィールド名と値をcsv形式で出力する方法はありますか？
+MySQLもしくはPostgreSQLでの質問です。 毎日下記のようなルールで生成されているトラッキングコードを条件によってグルーピングしたいです。【例】Yahoo!の媒体に出稿しているデータ ・ADYH_20150808_pc_xxxxxx ・ADYH_20150808_sp_xxxxxx ・ADYH_20150809_pc_xxxxxx ・ADYH_20150809_sp_xxxxxx ・ADYH_20150810_pc_xxxxxx ・ADYH_20150810_sp_xxxxxx ...... SQLで《トラッキングコードに'ADYH_'が含まれているものは'Yahoo!'と出力》のようなSQLを作成したいのですが、どのように組めば良いかわからず、困っております。 お知恵を貸していただけないでしょうか。 よろしくお願いします。
+現在Ruby on railsにてアプリ製作を行っているのですが、フォーム(新規登録フォーム)からデータベースに保存をすることができません。ローカルではデータベース(postgreSQL)に保存ができるのですが、Herokuでアプリを起動し、そこから入力をしてもデータベースに保存ができない状態です。 ローカルでは保存ができるのに、なぜリモート(Heroku)からだと保存ができないのか原因が分かりません。 テーブルの構造は、 カラム 名前(string)、会社名(string)、メールアドレス(string) です。 ご教示の程、何卒宜しくお願い致します。
+DBでレコードのロックしたあと、そのままコミットしないでレコードを順次ロックしても問題ありませんか？
+POSTGRESQLでSELECT 文を作成したいのですが上手くいかず困っています。 どなたか知恵をお貸しください。 テーブルの項目名は同じものとします。１.テーブルAとテーブルBの項目aが等しいデータを取得 ２.テーブルAとテーブルBの項目bがnullのものをカウント ３.テーブルAとテーブルBの項目bがnullでないのものをカウント ４.３で取得したデータの項目cに紐づく項目cと項目dを、テーブルCと内部結合して取得。項目cの昇順で取得する。 よろしくお願いします。
+SQLのcase式で条件によってカラムにセットする値を変えてupdateできたりすると思いますが、例えばx=NULLならaをセット、違えばbをセット(もしくは値をセットしない)とかできますか？ xは、プログラムで別の文字列に書き換える予定でNULLの時か文字列があるかで判定できれば良いです。 どうでしょうか？
+postgreSQL 二つの表の結果を1回のSQL文で こんにちわ。 テーブルA,B,Cがあります。AとBのjoinした結果とAとCのjoinした結果を1回のSQLで書くにはどうしたらいいでしょうか？ よろしくお願いします。
+PostgreSQLのダウンロードからセットアップ、そして操作の方法を教えてください。
+テーブルの作成についての質問です。 年月を入れる列を作ろうと考えています。 date型だと年月日の情報がある為、日が余計になってしまいます。プライマリキーなので年月が同じなのに、日が違う為に一意にならない場合があると困ります。 ほかに年月だけを持つ型を探しましたが見つかりませんでした。 年月を格納する列の作り方についてアドバイスをお願い致します。 利用しているDBはPostgreSQLです。
+検索スピードをあげるためのSQLもしくはインデックスの張り方を教えてください。 仕様としては画面から入力された１つの値をAテーブルのCOL_A項目とBテーブル のCOL_B項目に対してい部分一致検索をおこない、 マッチするレコードがあれば抽出、マッチしなければNULLで抽出したいです。 画面からの入力が無い場合もありますがこの場合は検索スピードは遅くても仕方 ないと思っております。 データベース：postgreSQL9,3 ・BASEテーブル(T_BASE) BASEID(PKEY) COL_BASE ID CODE ・Aテーブル(T_A) ID(PKEY) COL_A ・Bテーブル(T_B) CODE(PKEY) COL_B ・SQLイメージ（入力値が無い場合は入力値にはNULLが入る。） SELECT * FROM T_BASE LEFT OUTER JOIN T_A ON T_BASE.ID = T_A.ID LEFT OUTER JOIN T_B ON T_BASE.CODE = T_B.CODE WHERE (入力値 IS NULL OR T_A.COL_A LIKE '%入力値%') OR (入力値 IS NULL OR T_B.COL_B LIKE '%入力値%');
+centOS6.6のphppgadminのインストールについて ログインがうまくいかずに再インストールしたいのですが、うまくきません。 サイトを見て、以下のコマンドを打ちました。yum --enablerepo=epel -y install phpPgAdmin php-pgsql そしたら、以下のエラーがでました。 Error: Package: php-pdo-5.3.3-46.el6_6.x86_64 (updates) Requires: php-common(x86-64) = 5.3.3-46.el6_6 Installed: php-common-5.6.14-1.el6.remi.x86_64 (@remi-php56) php-common(x86-64) = 5.6.14-1.el6.remi Available: php-common-5.3.3-40.el6_6.x86_64 (base) php-common(x86-64) = 5.3.3-40.el6_6 Available: php-common-5.3.3-46.el6_6.x86_64 (updates) php-common(x86-64) = 5.3.3-46.el6_6 Error: Package: php-pgsql-5.3.3-46.el6_6.x86_64 (updates) Requires: php-common(x86-64) = 5.3.3-46.el6_6 Installed: php-common-5.6.14-1.el6.remi.x86_64 (@remi-php56) php-common(x86-64) = 5.6.14-1.el6.remi Available: php-common-5.3.3-40.el6_6.x86_64 (base) php-common(x86-64) = 5.3.3-40.el6_6 Available: php-common-5.3.3-46.el6_6.x86_64 (updates) php-common(x86-64) = 5.3.3-46.el6_6 You could try using --skip-broken to work around the problem You could try running: rpm -Va --nofiles --nodigest 詳しい方、いらっしゃいましたら、教えてください。 よろしくお願いします。
+PostgreSQLのクエリで、文字列を括るのにダブルクォーテーションは使えないのでしょうか？例えば、 select * from テーブル名 where 列名 = '文字列' のようにシングルクォーテーションだと条件が効きますが、 select * from テーブル名 where 列名 = "文字列" のようにダブルクォーテーションだと条件が効かず全件引っ張ってきます。 これを知らずにdelete文でやってしまい失敗しました。 これ、随分危なっかしいと思うのですが、PostgreSQLの仕様ですか？
+次のようなビューを作りたいのですが、どのようなSELECT文を書けば良いでしょうか？知恵袋だと表示が崩れてみにくいと思うので、全てのビューとテーブルを最後に画像で貼り付けています。 社員ID 名前 住所 picture1 picture2 picture3 １ Ａ君 東京 A_1.jpeg A_2.jpeg A_3.jpeg ２ Ｂ君 埼玉 B_1.jpeg B_2.jpeg ３ Ｃ君 千葉 C_1.jpeg 元のテーブルは次の２つです ★社員テーブル 社員ID 名前 住所 １ Ａ君 東京 ２ Ｂ君 埼玉 ３ Ｃ君 千葉 ★写真テーブル 社員ID picture １ A_1.jpeg １ A_2.jpeg １ A_3.jpeg ２ B_1.jpeg ２ B_2.jpeg ３ C_1.jpeg 写真テーブルには一人の社員につき上限三枚で写真名が登録されています。 使っているデータベースはPostgreSQLですが、MySQLやOracleやAccessでの書き方でも構いません。
+pg_bigmのGIN(gin_bigm_ops)とBtreeとの複合インデックス作成は可能か教えてください。 ググっても出てこないので無理なものと思っていますが。。。 よろしくお願いします。
+psql のselect文実行時、列数が多い場合 お世話になります。 psqlでselect文実行時列数が多い場合は、表示が見づらいのですが、どのように対応されていますか？以上です。よろしくお願いします。
+PostgreSQLの質問です。 バッチファイルを作っているのですが psqlをパスワード入力を求められずに実行する方法はないですか？途中でパスワードを求められ、CRONで実行できないので困っています。
+PostgreSQLのPQexecParamsについて質問です。下記のコードではresにEXPLAINの結果(①)が入っているという認識でよろしいのでしょうか。res = PQexecParams(conn,"explain select * from test",0,NULL,NULL,NULL,NULL,1); ①Seq Scan on test (cost=0.00...1.45 rows=30 width=109)
+PostgreSQL 8.4.20をphpPGAdminを使い条件抽出を 行っているのですが、SQLの書き方を良く理解していりませんので参照テーブルを開いて各カラムに例えば特定品番の情報を選択した 場合は品番項目にABCD1と入れ、加えて日付のカラムに何日以降なら 演算子に>=、日付に20150901 00:00:00を入れて出力するようにして いるのですが、ここの所複数の特定品番での出力が要求されるように なって来ました。 今は単品毎に出力しているのですが、対象データの登録の仕方で 複数選択することは出来ないのでしょうか？ 半角スペースやダブルコーティション（シングルも）、カンマで 複数入れてみたのですがエラーになってしまいます。 やりたいこと ABCD1とABCD2とABCD3の情報を一度の処理で出力したい ご存知の方いらっしゃいましたらご指導宜しくお願い致します。
+PostgreSQLのPQexecParamsの引数についてお聞きしたいことがあります。引数でint nParamsとparamTypesについてそれぞれ提供されるパラメータ数とパラメータシンボルに代入されるデータ型をOIDで指定とありますがここで言うパラメータとは何を指しているか教えて頂けないでしょうか。
+PostgreSQLのexplainについてお聞きしたいことがあります。explainを使ってあるSQL文を実行しますと下記の結果を得ました。下記の①～③について分かる方教えて頂けませんか。①costは推定起動コストと総コストらしいのですがここでは推定起動コストが0.00で総コストが11.30ということでしょうか。 ②rowsは推定行数らしいのですが入力データは5行しかないはずなのですがなぜ170と表示されるのでしょうか。(widthは推定幅ですがこちらも430までいかないはず) ③それぞれの推定コストや推定行数・幅などをどういった計算で出されているのでしょうか。 QUERY PLAN Seq Scan on test (cost=0.00...11.30 rows=170 width=430)
+SQLの時間差分の求め方がわかりません 9:00～18:00 = 差分 9:00 調べ方が悪いのかどこを探しても見つかりませんでした・・・このようにSQLで日付等はなしに時間の差分を求める構文ってあるのでしょうか？ よろしくお願いいたします。
+Postgresqlで、区切り文字がある文字列を複数の列に分割して出力する方法を教えて下さい。例えばA列に「AAA●BBB●CCC」という値が入っていて、 それをselect文で、 A1列 A2列 A3列 AAA BBB CCC というように表示したいのです。 string_to_arrayで配列にして、その要素を個別に表示するような簡単な方法はないでしょうか？ よろしくお願いします。
+幸福の科学と創価学会どちらに入りたいですか、
+postgreSQLのリカバリについて あるテーブルについて、操作ミスで特定の行を削除してしまった場合、ログファイルなどを使ってデータを復活させることはできるのでしょうか？以上です。よろしくお願いします。
+PostgreSQLで0～99の値を扱う列を作ります。 どの型を使えばいいでしょうか？
+プログラミングについての質問です。使用言語はJavaです 今RSA暗号を生成し、それをデータベース(PostgreSQL)に格納し、使用する際には取り出して使えるようにしたいと考えています。PostgresSQLには残念ながら、JavaにあるPublicKey型やPrivateKey型がないので、データベースに格納するときはkeyPair.getPublic().toString()のように、String型にしてから格納することにしたのですが、これだと取り出して鍵を使用する際にString型→PublicKey型(PrivateKey型)へのキャストが出来ないため、エラーが出てしまいます。 何かいい解決策はないでしょうか？
+「条件Aを満たすBと紐づく値Cを持つカラムを取得するクエリ」をスマートにかくにはどうすればいいでしょうか。例えば下記のようなlogsテーブルがあるとして、 ”hit_timeが2015-08-01-2015-09-01の間にいるuser_idを抽出し、 それと紐づくsession_idが格納されている全てのレコードを抽出する。” というクエリを書きたい場合、下のようなクエリになると思うのですが、サブクエリの入れ子は可読性は低くて別の方法を探しています。 テーブル logs session_id hit_time user_id aaa 7/1/15 1 bbb 8/1/15 2 ccc 1/1/15 1 ddd 1/1/15 1 SELECT * FROM logs WHERE session_id IN ( SELECT session_id FROM logs WHERE user_id IN( SELECT user_id FROM logs WHERE hit_time BETWEEN ’2015-08-01’ AND ‘2015-09-01’ ) )
+ご教示ください。 LinuxでPostgreSQLを使用し、PITRリストアする予定です。 Index用テーブルスペースのディスク容量が小さいため全アーカイブをリストアできません。target-timeを指定して複数回リストアすることは可能でしょうか。 （例） 1.日曜日のフルバックアップをリストア、起動 2.月曜日の増分アーカイブをリストア、起動、VACUUMや再作成 3.火曜日〃
+テスト用と本番用のデータベースがあり、 週一回、本番用のデータをテスト用に突っ込むのですが、 テスト用のデータベースに書いた部分は保持したいです。この要件を実現する良い方法はあるでしょうか？ よろしくお願いします。
+マルチトランザクションのDBで質問です。 複数のテーブルを順次更新してコミットしたいですが、テーブルロックをしないと途中で他トランザクションにレコードが更新されることがあります。 複数テーブルにまたがるのでまとめてレコードロックもできませんよね？ どうすればいいでしょうか？
+postgresqlのsqlで質問があります いくつかのカラムとそれに準ずる連番を振りたいです SELECT 名前,※(SELECT(SELECT count(*)+1 from TABLE as s1 where s1.行番号<s2.行番号 and (s1.data1 || s1.data2) = (s2.data1 || s2.data2)) as no from TABLE as s2) as 連番 FROM TABLE こんなふうに組んでみたんですが 「more than one row returned by a subquery used as an expression 」このエラーがでてしまいます エラーの意味はわかったのですが解決策が思いつかず悩んでるところです ※内は、グループで連番を取得しています ただ、postgreのバージョンが古くwindow関数が使えずサブクエリで行っています ご助言をお願いします
+OSSDBSILVER勉強中です。問題を解いていて不思議に思ったんですが、 CREATE TABLE points(col1 int primary key ,col2 int check(col1>0 and col2<0)); この定義のテーブルで Insert into points values(3,null); が通るようなんですが、 Nullって非nullより大きい扱いですよね？ 「<0」のチェック制約に違反すると思うのですが、どうでしょうか？ 凡ミスだったら恥ずかしいのでいろいろ調べたのですがはっきりせず・・・ 確認できる環境も無く、もやもやしております。 すみませんがどなたかご教示ください。
+VBからPostgreSQLを利用するアプリを作成しています。 PostgreSQLの内容を暗号化したいと考えています。 どのような方法があるでしょうか？
+PostgreSQLとMySQLって何ですか？また、どんなものですか？ 初心者にもわかるように詳しく丁寧に教えてください。 お願いします。
+postgreSQLで「指定期間内」に「指定曜日」が存在するか確認する方法。テーブルに次のカラムがあります ・date1 期間開始日 ・date2 期間終了日 このテーブルを曜日で検索し、期間内に曜日が存在する場合は取得する。 という事を行いたいのですが、どのようなSQLを書けば良いでしょうか？ またテーブルを分ける等、他に良い方法がありましたらご教授願います。
+CSE(Common SQL Environment ver1.5.9)を利用して既ＤＢ (ﾃｰﾌﾞﾙ)へ、csvファイルから、データをインポートしようとしていますが、このとき、csvファイル側のフィールドにスペース が入っていても、スペースが消去されずに、そのままスペー スがインポートされるようにする方法を教えて下さい。 尚、新規レコード作成にて、コピー＆ペーストしても結果は 同じです。また、型の変更は不可です。 例＞ ■CSVファイル "a"," ","20100823","S"," ","12345","テストデータ"," " ※左から2つ目,5つ目には、スペース2つが入っています。 ※右から1つ目には、全角スペース2つが入っています。 全角スペースは問題く、インポートされます。 ■テーブル 下記添付の画像をご覧下さい。
+自動採番の質問です。 YYYYMMDD連番という列を作りたいです。 たとえば20150527001という風にしたいのですが日付を入れる方法がわかりません。次の日にはレコードをすべて消して20150528001からはじめます。 宜しくお願いします。 PostgreSQLです。
+postgreSQLのデータをswiftに送ることはできますか？
+ゲームを作成しているのですがデータベースがわからず困っています。一度ゲットしたキャラを図鑑などで貯めていく為、postgreSQL、PHPで取得したキャラのデータをデータベースのテーブルで例えば、trueからfalseに変えることで図鑑にゲットしたキャラを貯めていきたいのですが、postgreSQLでどの様なテーブルの作成、また、PHPの呼び出しなどが分かりません、教えていただけないでしょうか。
+AmazonEC2にデータベース(PostgreSQL)を置いてます。 通常はPHPでアクセスしているのですが、メンテナンスの時にローカルからODBCなどで直接接続したいと考えています。何か方法はないでしょうか？
+phpPgAdminの子ユーザについて phpPgAdminでユーザを追加し、grant文でselect、update、 delete権限を与えました。そして、そのアカウントでphpPgAdminにログインすると、 ----------------------------------------- All Databases No databases found ----------------------------------------- と表示され、phpPgAdminからはデータベースを全く操作できません。 コマンドラインからは操作できます。 何か設定が足りないのでしょうか？ もし、ご存知の方がおられましたら、教えていただけると幸いです。
+postgresqlの条件の書き方について phpで下記のような0〜5まで選択できるチェックボックスからポスト送信されたもので、 1,3,4が選択された場合、 $post['num']=array(1=>1, 3=>1, 4=>1) になりますが、1、3、4を桁と考えて、 DB内データで数字カラムの1番目(2桁目)に1、3番目に1、4番目に1がくるものを取得したいのですが、思いつきませんでした。 結果としては今回の場合、id=2、5が取得できるというのが理想です。 よろしくお願いします。 <input type='checkbox' name='num[0]' value='1' /><label>0</label> <input type='checkbox' name='num[1]' value='1' /><label>1</label> <input type='checkbox' name='num[2]' value='1' /><label>2</label> <input type='checkbox' name='num[3]' value='1' /><label>3</label> <input type='checkbox' name='num[4]' value='1' /><label>4</label> <input type='checkbox' name='num[5]' value='1' /><label>5</label> DB内(tbl_number) id|数字(f_num) 1|001010 2|010110 3|011101 4|101101 5|110111
+postgreSQLのjoin区のnull値の統合 お世話になります。SQL初心者です。 テーブルA,Bのjoin区の統合でnull値を統合したい場合どのようにしたらいいのでしょうか？テーブルA テーブルB shop_id uriage id name 1 100 1 あああ 2 200 null いいい 3 300 null ううう これで、テーブルA.shop_idとテーブルB.idでjoinして、uriageをグループ化した時に、以下のようなイメージに表示したいと思っています。 shop_id uriage 1 100 null 500 よろしくお願いします。
+SQL初心者です。 PostgreSQLを使って、購入月別のユニーク購入者数のデータを出したいのですが、なかなか出せず困っております。データベースには購入者ごとに発番されるユニークID（customer_id）と、当該customer_idごとの購入日時(ins_datatime)が入っています。 単純な購入回数なら日次のcustomer_idの数をカウントすれば月別の積み上げグラフがつくれますが、今回出したいデータは「その月の中で、初めて商品を購入した人の数」です。 あくまでも、月で輪切りにしたデータではなく、最終的には日別に出して月次の累積グラフにし、ユニーク購入者数を毎日チェックしたいのです。 ユニークの定義は「その月に、初めて購入した人の数」なので、月をまたぐとリセットされます。 【出したいデータイメージ】 customer_id | ins_datetime ------+------------ 01 | 2015-08-01 02 | 2015/08/01 03 | 2015/08/01 04 | 2015/08/01 05 | 2015/08/02 06 | 2015/08/02 07 | 2015/08/03 08 | 2015/08/03 09 | 2015/08/03 10 | 2015/08/03 →8月1日のユニーク購入者数4名 →8月2日のユニーク購入者数2名 →8月3日のユニーク購入者数4名 【補足】 ・customer_id:01さんが2015年8月1日と、8月2日、8月3日の計3回商品を購入しても、カウントは1回で、初めて購入した8月1日にトラッキングされる。 ・customer_id単位でユニーク購入者数を出すため、2回目以降はトラッキングしない。 ・customer_id:Aさんが9月になってから商品を購入した場合は、9月でも1回トラッキングされる 上記の条件で、どのようなSQLを書けば良いのでしょうか？ 急ぎで出したいため困っており、皆様のお知恵をお借りできればと思います。 何卒よろしくお願いします。
+postgresqlで複数のカラムのJOINについて お世話になります。 2つのテーブルA,Bがあり、店番号と支店番号で等価結合したいと思っています。店番号はどちらも必須で入っており、支店番号は、特定のものしか入っていません。 テーブルAでは、入っていない場合は空文字で入っており、テーブルBは入っていない場合はNULL値ではいっています。 今回は、NULL値と空文字を同じ扱いにしたいと思っています。 テーブルのAとBでどちらも同じものを抽出したい場合はどうしたらいいでしょうか？ よろしくお願いします。
+PostgreSQLは北海商科大でも教えてますか？
+PostgreSQLは便利だと思いますか？
+postgreSQLはデータベースに必要不可欠なものですか？
+postgreSQLの事についてコインの移動やアドバイスはできるでしょうか？
+postgreSQLの事についてコインの移動やアドバイスはできるでしょうか？ またそのような事をする不届き者はどこかにいるでしょうか？
+postgreSQLは先週ゴミクズは利用したと思いますか？
+postgreSQLはいまでは世界標準になっているものですか？
+Postgresqlのデフォルト値設定について基本的なことをお尋ね します。下記の様に、testテーブルをクリエイトして、insert/ updateを行ったときに、各フィールド(test010、test020)に はどの様なデフォルト値がセットされるのでしょうか、よろし くお願いします。 ◆テーブル作成(php実行前に作成済み) CREATE TABLE test ( test010 character(2) NOT NULL DEFAULT ''::bpchar, -- コード test020 character(5) NOT NULL DEFAULT ''::bpchar, -- 名称 CONSTRAINT test_pkey PRIMARY KEY (test010) ) ◆Postgresqlへの書込み記述内容 <?php $test010 = ""; $test020 = ""; //insert文 $SQL = " INSERT into test("; $SQL .= "'". $test010 ."',"; //コード $SQL .= "'". $test020 ."',"; //名称 $SQL .= ")"; // テーブルへの書込み(内容省略) //update文 $SQL = " UPDATE test "; $SQL .= " SET test010 = '" . $test010 . "',"; //コード $SQL .= " test020 = '" . $test020 . "' "; //名称 // テーブルへの書込み(内容省略) ?>
+チャットワークで SELECT COUNT(*) FROM ～ と書き込むと(*)が星マーク（★）になってしまいます。チャットワークの機能のようですが、SQLの記述の邪魔になってしまいます。 何かよい回避方法はないでしょうか？
+postgreSQLのテーブル情報の取得 oracleのDESCみたいなものはないのでしょうか？ よろしくお願いします。
+pdAdmin3で取得したバックアップファイル（拡張子がbackup)をphpPgAdminで復元する事はできるでしょうか？現在、backupファイルがありどのように復元しようか悩んでいます。 サーバへのログインパスワードは持っていますのでSSHでコマンドを打つ事などは出来ますが、利用した事がないので出来ればphpPgAdminで行えれば助かります。 phpPgAdmin 5.1 PostgreSQL 9.3.5 on x86_64-unknown-linux-gnu, compiled by gcc (Ubuntu 4.8.2-19ubuntu1) 4.8.2, 64-bit 以上、宜しくお願いします。
+このID非表示質問は捨てIDを使用したイシモ本人によるものですね。↓ http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1114681825... バレバレになって恥ずかしくなって悔しさのあまり回答を消し逃げして、そのあと投票に回しましたね。 特撮で逃げ惑うドブネズミ野郎といえば何ですか？
+仮面ライダーオタクのキクチ教授に質問です 2015年8月28日（金）～30日（日）開催の実践経営学会第58回大会の出席は楽しみですか？ 特撮で楽しみといえば何でしょうか？http://www.jsam.org/zenkoku/58.html
+知恵袋でもpostgreSQLは利用しているでしょうか？
+PostgreSQLのログレベルを解りやすく説明したい PostgreSQLのログレベルをシステム開発に詳しくない方にも具体的にわかるように説明したいです。マニュアルを見ると下記のように書かれていますが、個人的に抽象的で理解できませんでした…；； ■DEBUG1..DEBUG5 開発者が使用する連続的かつより詳細な情報を提供します。 ■INFO VACUUM VERBOSEの出力などの、ユーザによって暗黙的に要求された情報を提供します。 ■NOTICE 長い識別子の切り詰めに関する注意など、ユーザの補助になる情報を提供します。 ■WARNING トランザクションブロック外でのCOMMITの様な、ユーザへの警告を提供します。 ■ERROR 現在のコマンドを中断させる原因となったエラーを報告します。 ■LOG チェックポイントの活動の様な、管理者に関心のある情報を報告します。 ■FATAL 現在のセッションを中断させる原因となったエラーを報告します。 ■PANIC 全てのセッションを中断させる原因となったエラーを報告します。 PANIC,FATALはわかったのですが…特にINFO,NOTICEは具体的にどういった内容で出力されるかご教授いただけないでしょうか。 あと、DEBUGはログを確認したのですが、発行したSQL文や送信文字列などは記録されないですよね？ よろしくお願いいたします。
+PostgreSQLで、内部結合や外部結合などを用いてINSERTやUPDATE、DELETEを行う方法が分かりません。 書き方を教えていただけると助かります。
+文字列の判定 postgresqlでストアドを作成しています 渡された値が[nn/nn]の時のみ処理をしたいです 10/10 --処理する 200/150 --処理するテスト --処理しない 2015/10/10 --処理しない １月/２月 --処理しない -/- --処理しない どのように判定したらいいでしょうか
+postgreSQLを使うと仕事も効率が上がりますか？ 新しいIDでスタートですね。 またよろしくお願いします。
+リクエストです。 キクチ教授は自業自得にもかかわらずランキングカテマスはく奪を根に持って postgreSQLを悪用したと思いますか？
+リクエストです。 イシモは自業自得にもかかわらずランキングカテマスはく奪を根に持って postgreSQLを悪用したと思いますか？
+postgreSQLの投入はやはり人知れず情報収集を狙うためでに有効となりえますか？見つかってしまって天敵カヨチャンにビビッて 大慌てのヘタレ自作自演BA綴じｗ 主要自作自演カテマスＩＤもすべてつぶされて恨みつらみの毎日のようですね。
+SQL文についての質問です。 それぞれ別のところから取ってきた二つのvarchar型の文字列があるとします。仮にa.nameとb.nameとします。 ここでWHERE句で、b.nameを文字列の一部に含むa.nameを探すことはできますでしょうか？例えばb.nameがguitarで、a.nameにはA.guitarとE.guitarなどがあり得る、といったような状況でどちらもヒットするようにしたいのです。 もし完全一致ならa.name = b.nameとすればいいのでしょうが…。Javaで言うcontainsみたいなことを行いたいです。 文字列の部分一致は調べても'%guitar'のように直接打つ方法しか見つかりませんでした…。 何か方法があれば教えていただきたいです。よろしくお願いします。 何か不足がありましたら補足いたします。
+postgreSQLはYahoo！japanも利用してるんですか？
+PostgreSQLの質問です。phpPgAdminなどでテーブルを見る時のカラムの表示順を変更したいです。 よろしくお願いします。
+PostgreSQLのビット型で値を抽出/比較するには？下記のようなテーブルがあります (テーブル名：hoge) bitv | name --------------------------- 0010 | りんご 0100 | みかん 1000 | メロン bitvの左から３ビット目の値を抽出/比較したいのですがPostgreSQLで そのようなことは可能でしょうか？ イメージ的には下記のような感じのSQLを組みたいのですが、、、 select * from hoge where bitv(3) = 1 (結果) bitv | name --------------------------- 0010 | りんご また無理でしたら、ほかの方法で同じような結果が得られないでしょうか？
+postgresでpgAdminを使い始めたのですが、 CREATE TABLEが構文エラーとなる現象が頻発して困っています。構文的に全然問題ないことは他のベンダーで確認しているのに postgresだとそれこそ単純なクエリでも何回やっても通らない時があり 本当にイライラさせられるのです。 ヘルプなどを見ても特に言及がなく原因がわかりませんが 同じ経験した人はいないのでしょうか。
+PostgreSQLのPG_logに [2015-05-23 18:54:19 JST] 5433: LOG: 開始パケットが不完全です のようなメッセージが出力されています。 このメッセージについてネットで調べてみましたが、原因や対処方法が特定できませんでした。 このメッセージの ･発生する原因 ･発生抑止 ･発生時のシステムへの影響 についてご教示願います。 環境は OS:Winsows Server 2012 R2 DB:PostgreSQL 9.4.1.1 x64 以上よろしくお願いいたします。
+クエストです。 postgreSQLは隠れて勉強しますか？
+PostgreSQL shell について質問です。データベース名memobd、テーブル名はriku_table、のカラム名nameに、 primary keyを設定したのですが、きちんと設定できたか確認がしたいです。 その場合、PostgreSQLになんと入力すれば良いのですか？ 宜しければ上記、テーブル名やカラム名を用いて、ソースを教えてください。 お願い致します。
+MYSQLとPostgreSQLの違いといえば何だとおもいますか？
+キクチが疑似IDのwspsrsreでログインするときデータベースも考えてると思いますか？
+k2k2はpostgreSQLを利用してると思いますか？
+PostgreSQLでいわゆるUPSERT（既存データはUPDATE、なければINSERT）をやるにはどんな方法があるでしょうか？ 宜しくお願いします。
+postgresqlに関して 開店時間と閉店時間が日を跨いでしまうときの計算に関して質問させてください。 開店時間と閉店時間がcharacter型で入力されています。(元々がcharacter型だったのでなんでcharacter型にしたのかという返信はご容赦ください) 「11:00」~「25:30」となっていた場合どのようにしたら良いでしょうか？ まず、castでtime型に変換しようとすると当然失敗します。 24:00を境に分けようともcharacter型なので計算ができません。 (24:00を超えていたら最初の2行だけ抽出して24を引いたものを残りの分単位のものと結合するという無理矢理な形ならできなくもなさそうですが・・・) どなたかわかる方がいれば、回答よろしくお願いします
+PostgreSQLのデータインポートについて教えてください。 ローカルに保存したTSVデータをpgAdminⅢのSQLエディタを使ってテーブルにインポートしようとしています。「copy table_A from 'C:\Users\TEST.tsv';」 で実行をすると 「ERROR: ファイル"C:\Users\TEST.tsv"を読み取り用にオープンできませんでした: No such file or directory SQLステート:58P01」 といったエラーになってしまい、、、 どうすれば回避できるかいろいろ探したのですが、 権限の問題？→どこから何の権限を変えればいいかわからない データ容量の問題？→小さくするのは無理だからポスグレは使えないのか（約2,000,000kb） コマンド？→pgAdminⅢのSQLエディタでは不可能なのか？ など、わからないことだらけで全然解決できず。。 pcやサーバーなどに全く詳しくないので、初心者でもわかるように説明していただけたら幸いです！！！！ pgAdminⅢのSQLエディタで上記エラーを回避してデータをインポートする方法をわかる方、 どうかご説明お願いします。
+phppgadminでテーブルを作ろうとするとき「without oids」という項目があるのですが、これはなんですか？ PostgreSQL初めて使うのでわからないのですが
+postgresql の8.4を使用しています。oracleのデータ辞書の以下のものに相当するものってありますか？イマイチ探しきれません 1. カラムの名称 ( user_tab_columns.column_name ) 2. データ型,長さ,精度( user_tab_columns.data_type, user_tab_columns.data_length, uesr_tab_columns.data_precision uesr_tab_columns.data_scale ) 3. NULL許容 ( user_tab_columns.nullable ) 4. プライマリキー ( user_constraints, user_ind_columns ) ※user_constraints で制約の種類からPKを探してuser_ind_columnsでカラム確定 特に、４のPKを知っていれば教えてください。key_column_uageなど、それっぽいのがあるのですが、外部キーやユニークインデックスも含まれるらしいので、純粋にプライマリキー「だけ」を取得する方法は無いでしょうか？ 宜しくお願いします。
+【Sql】 除算結果でselect ～ order by 以下のsql文（PostgreSQL）で、Totalに対するYesの割合で並べてselectしたいのですが、うまくいきません。[sql文] select * from table where "code" = 21 ORDER BY "Yes" / "Total" desc; 上記sqlの除算の箇所を、足し算や乗算に換えるとうまくいくのですが、除算の場合はうまくいきません。 なお、このテーブルのデータでは分母に0が来ることはありません。 どこが間違っているのでしょうか？ 教えていただけると幸いです。
+posygreSQLカテは人気がないんですか？
+意思決定支援システムって何ですか？
+postgreSQLで古いサブID偽タッツを不正で育てることはよいのですか？http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1214491485...
+posygreSQLデータベースに「おばんです」という方言はありますか？
+PostgreSQLのSQL関数TO_CHAR()の仕様についてお伺いします。(Ver8.4, 9.4) 整数値と数字の比較がうまく行かなかったので、検証のため、 pgAdminから、以下のSQLを投入したところ、'f'が返ってきました。 SELECT '1'=TO_CHAR(1,'9') FROM tbl; 更に、 SELECT ASCII(TO_CHAR(1,'9')) FROM tbl; を投入したところ、32が返ってきました。 ASCIIコードで32と言えばスペースのはずです。 しかし、 SELECT TO_CHAR(1,'9') FROM tbl; には’１’が返ってきます。 私としては最初のは’ｔ’が、2つ目は49が返ってきて欲しかったのですが、 どうしてこうなってしまうのでしょうか？
+PosgreSQL で、 Number型（整数型）で -1 は何桁ですか？ １ケタ？ ２ケタ？
+postgreSQLでゼンコウジの知らないシニアIDが解明できますか？
+PostgreSQLとMYSQLの違いは何ですか？
+UNIONを使った和集合の書き方で質問があります。カラムがA-Zまであるテーブルaに対して、カラムA-Cとカラムを共通し、かつカ ラム数が3つ（A-Cのみ）テーブルbをUNIONで和集合にしたいと思います。 現在は UNION SELECT A, B, C, NULL, NULL, NULL(以下略) FROM テーブルB として、Z列までNULLを打ち続けてるのですが、なんとかもっと可読性が高い方 法はないかと模索しております。お分かりになる方、ぜひともご教示くださいませ。 SQL、postgreSQL
+リクエストです。 postgreSQLのことで海外に視察や研究に行ってみたいと思いますか？
+リクエストです。 postgreSQLの研究や視察ため海外出張に行く人は、多いんでしょうか？
+250枚！（助けてください；；） PostgreSQLのインストールについて。現在、初心者でPostgreSQLのインストールについてつまづいています・・・； 一度インストール作業をしたのですが途中で「応答していません」と出てしまい キャンセルをして再インストールをしようとしたところ 「An existing PostgreSQL installation has been found at C:\program Files\ PostgreSQL\9.4 This installation will be apgraded. In order to upgrade, we may need to restart the server. All connection to the server will need to be reestablishede after the completion of the installation process.」 と表示されてしまいました。 そして「NEXT」をクリックするとDate Directory の部分にファイルが参照されておらず空欄のままでした。 この場合どうすればいいのでしょうか？泣 すでにインストールされていたのでしょうか？ どなたかおしえていただけますと幸いです。
+PostgreSQLについて教えてください。 A端末とB端末の2台構成です。A端末はWindowsServer2012 B端末はWindows7 ※ともに64bitOS A端末をデータベースサーバとしてB端末から接続を行おうとしています。 A端末とB端末の各設定は以下の通りです。 A端末(ip:192.168.11.12) ・PostgreSQL9.4をインストール/データベースの作成(port:5432) ・pgAdmin3よりデータベースへの接続確認(ID:postgres PW:任意で設定したもの) ・簡単なSQLの動作確認 ・ファイアウォール受信ポート5432を解放 ・postgresql.confのlisten_addressesは「*」。 ・pg_hba.confは以下の追加STARTとEND区間のみ追加 ※pg_hba.confのアクセス設定部 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー # TYPE DATABASE USER ADDRESS METHOD # IPv4 local connections: #host all all 127.0.0.1/32 md5 #追加START host all all 192.168.11.0/24 trust #追加END # IPv6 local connections: #host all all ::1/128 md5 #追加START host all all ::1/128 trust #追加END # Allow replication connections from localhost, by a user with the # replication privilege. #host replication postgres 127.0.0.1/32 md5 #host replication postgres ::1/128 md5 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー B端末(ip:192.168.11.9) ・pgAdmin3をインストール ・接続先ホストをA端末 IDとPWをA端末にて接続確認したものと同様に設定 ・A端末に対してリモートで操作を行っています(端末同士は見えている) ・コマンドプロンプトで「telnet A端末 5432」でエラーがでないことを確認(ポートも空いている) ※confファイルの変更後、サービスの再起動を行っています。 上記状態でB端末からA端末のpostgresqlにpgAdmin3を使い接続を行おうとした場合に Access to database denied(サーバはアクセスを否定しています)と表示されます。 いろいろ調べて設定を追加して上記の状態なのですが、設定が足りない場合はご教示ください。 よろしくお願いします。
+リクエストです。 データベースはどのように管理してますか？
+postgreSQLって何ですか？
+OracleとPostgreSQLと不正ＢＡ、イシモはどれが好きだと思いますか？
+postgreSQLは好きですか？
+PostgreSQLでODBC接続をしたいのですが、うまくいかないことがあります。 サーバでは、自分自身のIPアドレスで接続できますが、ホスト名では出来ません。また、クライアントマシンから接続が一切受け付けられません。 デフォルトでそもそも接続できないものでしょうか？ また、別の内容にはなるのですがPostgresのDBにある全部の表名を取得したいのですがどのようにやるのが手っ取り早いでしょうか？ 詳しい方よろしくお願いいたします。
+postgreSQLは知恵袋でも利用してるんでしょうか？
+postgreSQLは中学生くらいからでも理解できますか？
+桃太郎というお話がありますが、なぜ人間が桃から生まれるのですか？ それと人が入れるほど巨大な桃なんてあるんですか？
+PostgreSQLに関する質問です。プログラムからデータ更新を行っていますが、 プログラムの処理によって、ある項目に対して、NULL、または空白を セットしている箇所があるのですが、その項目をNULL、空白が セットされている場合に、どちらかに統一したいと考えています。 プログラム側で対応できればいいのですが、影響箇所が多い点と、 そういった項目が30テーブル、60項目あるため、 できればデータベース側でその値がセットされれば、 暗黙的に変換できるような仕組み(トリガ、ユーザー定義型)が 利用できないか、ご教授ください。
+pgAdmin上のテーブルにCSVをインポートするため、プラグインをplugins.iniに追加したのですがプラグインを選択してもCSV imPortが表示されません。 追加したものは以下です。; ; pgCSVImport (Windows): ; Title=CSV Import Command="$$PGBINDIR\pgCSVImport.exe" --host "$$HOSTNAME" --port $$PORT --username "$$USERNAME" --database "$$DATABASE" Description=Import CSV/TSV file to a new table of the current database. KeyFile=$$PGBINDIR\pgCSVImport.exe Platform=windows ServerType=postgresql Database=Yes SetPassword=Yes なぜ、プラグインのメニューで表示されないのかわかりません。 どうしたらよいか、お分かりの方ご教授お願いいたします。
+PostgreSQL9.3におけるpositison関数（strpost関数）についての質問です。positionは以下の様に記述することで、その文字列が始めに出現する場所を返してくれますが、以下の様な正規表現やワイルドカードには対応していないようです。（文字の一種だと認識されているよう） 例１）「aabbccaabbcc」から「bc」を見つけたい → ４ 例２）「aabbccaabbcc」から「a」を見つけたい → 1 例３）「aabbccaabbcc」から「b%c」を見つけたい → 0（検索できず。本来は３と出てほしい） 例４）「aabbccaabbcc」から「[b-c]」を見つけたい → 0（検索できず。本来は３と出てほしい） 上記のような正規表現やワイルドカードに対応した関数が必要となると、自作する必要があるのでしょうか？ もし、自作が必要であればどのようなロジックが考えられるでしょうか？
+PostgreSQLに関する質問です。 SQL実行後にSQLが正常実行されたかどうか(エラーならエラーの状態)を知るSQLSTATE, また、メッセージを取得できる方法を知りたいです。取得結果をファイルに書き出したいと思っています。 イメージとしては、Symfowareのrdbexecsqlのようなイメージです。 http://software.fujitsu.com/jp/manual/manualfiles/M100005/B1WS0830/... 方法の有無についてご存知の方、ご回答よろしくお願いいたします。
+PostgreSQLのことで質問です。 データベースの使用率、そして各テーブルの使用率を取得したいのですが、 何か取得できるコマンドはありますか？使用率でなくとも、データ容量、空き容量などが取得できるコマンドがあれば教えていただきたいです。 ご回答よろしくお願いします。
+postgreSQLはプライベートでも遊べますか？
+PostgreSQLは知恵袋の違反報告に使えますか？
+postgreSQLとOracleどちらをよく使いますか？
+真面目に知恵ノートをまとめてみました、通報に役立つと思いませんか？ このようなものはデータベースで管理すべきでしょうか？
+コンピューターベースは重要でしょうか？
+クエリ中で作成された一時テーブルを、サブクエリとして使うにはどうすればいいでしょうか。例えば以下のようなクエリはrelation Aが存在しないというエラーがでますが、このテーブルAをSELET文中などで使うことは可能でしょうか。可能でしたら方法を教えてください。 SELECT *, (SELECT col1 FROM A AS A1 WHERE ~中略~) FROM (SELECT * FROM table1) AS A
+データベースは重要な位置を占めるものですか？
+PostgreSQLのconvert関数 旧サーバーから新サーバーへWebアプリ(php)とDB(postgresql)を移行いたしました。PostgreSQLの環境を8.1.18から8.4.20になったのですが、 convert関数がエラーを起こすようです。 どう記述すればよいですか。 convert(kokyaku.furigana,"SJIS")
+postgreSQLはプライベートでも遊べるものですか？ ゼンコウジも遊んでるんでしょうか。
+PostgreSQLは知恵袋の違反報告にも役立てられるものでしょうか？
+コンピューターベースは重要な位置を占めますか？
+目は四、鼻は九、口は三、では耳は？
+下は暗号ですが最後の一文字が足りません。あと一つ足らない文字は？ 「どんきくもいすかつげち」
+postgreSQLを仕事にも利用していますか? 他の質問も確認して下さい！
+PostgreSQLを仕事にも利用したこと有りますか？ ほかの質問も確認して下さい！
+postgreSQLのデータベースは重要な部分ですか？
+postgreSQLって複雑ですか？
+postgreSQLは誰でも慣れるものですか？
+お昼の２時に空に見えるものとは何？
+下の記号はある法則に従って正しく並んでいます。「？」に入る記号は何？ ◯ ◎ ◯ ◎ ◯ ◯ ？ □ □ □
+リクエストで教えて下さい。 postgreSQLは仕事でよく利用してる方ですか？
+PostgreSQLとはなんぞや？
+システムの構築は楽しい作業でしょうか？
+SolarisにインストールされたPostgreSQLのアンインストールの方法を教えてください。Ver9.3をインストールして、PostgreSQLを起動したのですが、旧バージョン（Ver8.19）で起動してしまい困っています。 よろしくお願いいたします。
+結果がなぜこうなるのか分からない部分があります。 誰かどういう風に取得しているのか分かりやすく教えて下さい。テーブル作成 CREATE TABLE Source (a INTEGER NOT NULL, b INTEGER NOT NULL, PRIMARY KEY (a, b)); データ挿入 INSERT INTO Source (a, b) VALUES (1, 1), (1, 2), (2, 3), (2, 4), (5, 5), (5, 1), (5, 3), (7, 2), (9, 0), (11, 2); 取得処理 WITH X (a, b, pair_nbr) AS (SELECT a, b, ROW_NUMBER() OVER(ORDER BY a ASC, b DESC) FROM Source) SELECT a, b FROM X AS P1 WHERE NOT EXISTS (SELECT * FROM X AS P2 WHERE P2.pair_nbr < P1.pair_nbr AND (P1.a = P2.a OR P1.b = P2.b)); WITH句をしようした以下結果がこうなります。 a | b --+-- 1 | 2 2 | 4 5 | 5 9 | 0 4 行) WITH X (a, b, pair_nbr) AS (SELECT a, b, ROW_NUMBER() OVER(ORDER BY a ASC, b DESC) FROM Source) a | b ---+--- 1 | 2 1 | 1 2 | 4 2 | 3 5 | 5 5 | 3 5 | 1 7 | 2 9 | 0 11 | 2 10 行) までの結果は理解しました。 最後のwhere句で WHERE P2.pair_nbr < P1.pair_nbr AND (P1.a = P2.a OR P1.b = P2.b)); のがあり、4行出てるようです。 重複分を外しているのかと考えたのですが、 (7,2)(11,2)は出なかったので、どうなっているのか分からなくなりました。 この最後のwhere句は何をやっているのですか？？？ 誰か分かりやすく教えて下さいましたら、よろしくお願いします。
+レンタルサーバー1台で、MySQLとPostgreSQLの共存はできると思います。でも、レンタルサーバー1台にMySQLを2つ以上、またはPostgreSQLを2つ以上入れることはできませんよね？ （表現が変ですみません） あと、レンタルサーバー1台で複数のWebサイトを構築する場合で、MySQLやPostgreSQLを使うとします。 各Webサイト用にデータベースを作る場合、MySQLやPostgreSQLでは、ユーザーで分ける、という認識で合っていますか？
+今日の夜ごはんなんですか？！
+PostgreSQLでも、Oracleの「osqledit」や「SQL Developer」みたいに便利な、SQLを実行したりテーブル定義を見たりすることができるツールはありますか？もしあったら、お勧めのソフトを教えてください。
+postgresqlについて postgresqlに関して調べましたが分からないので教えてください。カラムA | カラムB | カラムC | カラムD | カラムE | 1 | 佐藤 | 神戸 | 10 | 100 | 2 | 山田 | 東京 | 20 | 200 | 3 | 鈴木 | 東京 | 30 | 300 | というテーブルのときにカラムCで集計をしたいのですが、重複するデータは一番最初のレコードを抽出し、カラムDとカラムEだけ集計するというようなデータにしたです。 カラムA | カラムB | カラムC | カラムD | カラムE | 1 | 佐藤 | 神戸 | 10 | 100 | 2 | 山田 | 東京 | 50 | 500 | できれば実行速度も考えたやり方にしたいのですが、どなたか知恵を貸してください。
+PostgreSQLってCompact FrameworkからADO.NETで接続出来ますか？コストダウンのため(Windows→Linuxを検討)に社内システムのDBサーバーをSQL Server Expressから移行しようと思っています。 代わりとなるDBとしてMySQLかPostgreSQLを検討しているのですが、どうもMySQLのライセンスが非常にあやふやで怖いので、PostgreSQLが今の所優勢です。 ですが、懸念事項が一つ。ハンディターミナル(Windows CE 6.0)からも接続しているため、CompactFramework(以下、CF)からの接続可能、という絶対条件が必要です。 MySQLは用意してありましたが、PostgreSQLはNpgsqlというライブラリが有名の様ですが、どうもCFは想定していないようなのですが、接続可能でしょうか？ ODBC接続にしろ、というのは不可です。 お知恵をお貸し下さい。
+SQL特定のデータで並び順の条件を変更する お世話になっております。postgres 8.1.4を使用しているのですが、次の条件のＳＱＬの書き方が良く分かりません。分かる方は教えていただけませんか？ 項目1, 2, 3 0,14/12/01,1 0,14/12/05,2 0,14/12/06,3 0,14/12/01,4 1,14/12/05,5 1,14/12/11,6 1,14/12/12,7 ・項目１=0の場合は項目２がソート順、項目1=1の場合は項目３がソート順と成るようなORDER BY が書きたいのですが可能でしょうか？ ORDER BYではなく、SQL自体を書き換えて、項目１=0, 1=1を別にSELECTし、UNIONで繋げてもいいのですが、他のAPIからも呼ばれている可能性があるので、なるべくSQLの本体は変更せずにORDERBY句のみで何とかしたいと考えています。 よろしくお願いします。
+PostgreSQLでUPDATEの値をSELECT文の結果から取得したい ある部門ごとに、その日付の過去１年間の売上を保持する 「移動売上計画額」「移動売上実績額」という 項目があります。この「移動売上計画額」「移動売上実績額」を 売上合計ビューから取得した値で更新したいです。 テーブルイメージは以下の通りです。 売上テーブル 日付,部門,拠点,売上額,移動売上計画額,移動売上実績額 売上合計ビュー 日付,部門,拠点,移動売上計画額,移動売上実績額 pgAdmin 3 Queryで以下のクエリを実行しましたが、 ERROR: syntax error at or near "and " SQLステート:42601 文字:256 と出てしまいました。 UPDATE "売上テーブル" SET "移動売上計画額" = (select "移動累計計画" from "売上合計ビュー" where "売上テーブル".部門 = "売上合計ビュー".部門 and "売上テーブル".拠点 = "売上合計ビュー".拠点 and "売上テーブル".日付 = "売上合計ビュー".日付); （ちなみに文字:256の部分は「 where "売上テーブル".部門 = "売上合計ビュー".部門 」の「"ビュー".部門」のあたりでした） 上記のクエリはPostgreSQLでは実行できないのでしょうか。また、クエリがそもそも 間違っていたらご教示いただけないでしょうか。 PostgreSQLのバージョンは8.2です。 他に必要な情報がありましたら教えて下さい。 よろしくお願いします。
+ＳＱＬで一つ前の日付情報を元にフィールドに追加したいです。 テーブル情報と表示結果は下記の通です。 使用DBはPostgreSQLです。 どうぞよろしくお願いします。■テーブル情報(tbl_A) id 日付 商品名 商品コード Y12345 2014/1/1 肉まん H12 Y12345 2014/2/2 中華まん H11 Y12345 2014/3/3 ピザまん J34 D34567 2013/7/7 コーヒー K53 D34567 2013/8/8 ウーロン茶 G24 D34567 2013/9/9 紅茶 U38 ■結果 id 日付 商品名 商品コード 日付(旧) 商品名(旧) 商品コード(旧) Y12345 2014/2/2 中華まん H11 2014/1/1 肉まん H12 Y12345 2014/3/3 ピザまん J34 2014/2/2 中華まん H11 D34567 2013/8/8 ウーロン茶 G24 2013/7/7 コーヒー K53 D34567 2013/9/9 紅茶 U38 2013/8/8 ウーロン茶
+postgreSQLは大学で授業がありますか？ emotokugurbはイシモナミだと思いませんか？コイツの回答は過去エネ6や偽タッツ、イシモナミで見た事がある一行回答ｗｗｗ マイ知恵を確認してご意見下さい。 http://chiebukuro.yahoo.co.jp/my/emotokugurb
+postgresに関する質問です。 count(*)するときに0も含む方法はあるのでしょうか？イメージは select count(*) from table where ・・・ group by id having count(*)>=0 and count(*)<=5 のようにcount(*)の数を指定したいのですが、0も含めるやり方が分かりません・・。 ご存知の方がいらっしゃいましたら教えて頂けると助かります。
+postgres(redshift)に関する質問です。to_number(to_char(CURRENT_TIMESTAMP, 'yyyymmddhh24') ,'9999999999')等といった表現をwhere文中でいくつか使用すると、 Specified types or functions (one per INFO message) not supported on Redshift tables等とエラーになります。 何かdate型のデータを数字に変換する良い方法は無いでしょうか。 よろしくお願いします。
+会員データ１００万人を管理運営しようと思った場合はデータベースは何が優れていますか？ 活用用途は顧客データから必要名簿の抽出と一斉連絡です。
+pl/pgsqlでglobalなconst値を使いたい。 こんにちは。とあるpl/pgsqlのプロシジャを改修する事になったのですが、固定値ベタベタで困っています。今はデバッグしながら意味を探っているところですが、分かった後constantに置き換えたいと考えています。 oracleの場合、packegeが存在するので、全部その中に放り込めます。 定義側： create or replace package allconst is sub_repair constant varchar(1) := '1'; sub_estimate constant varchar(1) := '2'; sub_purchase constant varchar(1) := '3'; end ; / 呼び出し側： create or replace function test ( arg in varchar2 ) is begin if arg = allconst.sub_estimate then : end if ; : end ; / end ; pl/pgsqlで同等のプログラムをするには、どうすればいいのでしょうか？？ pl/pgsqlでもtg_opなど、グローバルな変数が存在するようなので、この辺と同じスコープに放り込めれば良いんですけど・・・ 教えてください、よろしくお願いします。
+血クエストでお聞きします。 postgreSQLでこのkeskes321の質問は誰がBAになるか確認できますか？http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1113743821...

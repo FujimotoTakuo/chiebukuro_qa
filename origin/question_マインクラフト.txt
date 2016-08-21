@@ -1,0 +1,80 @@
+MinecraftのshotbowサーバーのANNIについて質問です。今日、8vs8でチームの知らない人とRushしたのですが、 なかなかそれが楽しかったので次は連携してRushしたいなと思いまして。 でも、自分コミュ症なのでSkypeなんかも無理かなと。 でも、連携してRushしたいなぁと思ったので、こう...文字だけで連携取れないかなとですね。 でも、文字だと難しいのでしょうか？ 要約すると、クランで文字だけの連携は取れないのかなという質問です。 回答、よろしくお願いします。
+pcのマイクラ1.9についてです。地図を拡張しようと思い、作成済みの地図の周りに紙を配置したのですが、何故か作成できません。（クリックしても消えてしまいます）どうすれば良いのでしょうか(^^;;
+MinecraftPEのトリップワイヤーフックと モンスター発生器の使い方を教えて下さい！
+《大至急》ポート開放って 二重ルーターでは できませんよね？
+マインクラフトで配布ワールドをつくっていました。 それで、killコマンドのコマンドブロックをあつかっていたら、 まちがえてクロック回路につないでしまいました。 リスポーンするたびに殺されます。どうすればいいですか？ お願いします<m(__)m>
+マインクラフトPCについての質問です。 初めてMODを導入しようと思ったら、Forgeは導入できましたが 黄昏の森MODを導入しようとするとmodsフォルダににいれても導入できません。どうすればいいですか？
+Minecraft サーバーBANについて 私はとあるサーバーで遊んでいたのですが、そのサーバーからグローバルBANされてしまいました。 理由には「griefing」と書かれていました。葉の破壊が原因らしいのですが、私はそのことを全く覚えてないのです。 破壊したところのスクショもあったのですが、全く破壊した記憶がなくてと言うよりそこに行った記憶がないのです。もっと言うとその日そのサーバーに入った記憶もないのです。 何を言いたいかというと、私はどうしてもグローバルBANだけは避けたいのです。 そこで異議申し立てをMCBANSにしたら、主からログが出てきたので言い逃れもできず困っています。 この状況で異議申し立て通す方法はありませんか? また謝罪でも異議申し立ては通るのでしょうか? 回答お願いします。
+【PS版マイクラについて】クリエティブで空中移動ができる状態（xを2回押す）になってるとき（例）ホッパーを置いて、置いたホッパーの上にホッパーを置くには空中移動ができる状態ではできないですよね？ 1度xを2回押して空中移動ができない用にしてからR3を押し低速移動状態にしてからしか置けないんですが、空中移動状態でもホッパーの上にホッパーを置くやり方はないですか？ もしあったら教えて下さい。面倒で^^;
+マインクラフトPSVita版をもっています。 日照センサーの上にガラスを置いても反応するのでしょうか?
+マインクラフトについてですが粘着ピストンを使う時に最初から伸びている状態にしてボタンを押した時に元に戻るという回路を組みたいのですがどのように組めばいいのでしょうか？
+マイクラのmodのThaumcraft4でるつぼの使い方が分かりません。るつぼの中にアイテムを入れても紫色の液体が出るだけでどうすればいいのか全く分からないので、どうやって使うのか教えて下さい。
+マイクラのスカイウォーズで隣の相手が開始すぐにとつってきたときの 対処法を教えてください！
+Minecraftって面白いですか？？
+Minecraftをやるんだったらどのハードがオススメですか？？
+windows10版とPE版のマインクラフトで離れた場所でマルチプレイは可能ですか？可能なら、方法もお願いします
+初投稿失礼します。 マイクラpeマルチの質問 友人とマイクラpeでマルチをしようとしているのですが、オプションの友人を招待というボタンが出ません。 また、友人から招待を受けても永遠とサーバーを検索中となります。 あと、最初のメニュー画面でフレンド登録した友人がオンラインでもオンラインの友達はいませんと出てきます 他の質問者さんが同じ様な事で質問していてXBOXliveにログイン出来てないと回答されていたので何度か再ログインするとたまにフレンドを招待出来るんですが基本出来ません(コマンドが無い)です。 お互いxbox？のフレンド登録済みです 何か解決策を知っていましたら教えてください 長文&ガタガタな文章力ですいません
+マインクラフトpeについての質問です。 以前も質問させていただいたのですが、 さらに細かくスライムチャンク特定を行っていたところ16×16は普通にあってその周りに8×32とみられるチャンクが存在してきました。ブロックは16×16の合計のブロックと同じなので何か関係があるのではないかと思いました。チャンクの周りをスライムスポーンブロックで囲っているので間違いは確実にありません。どなたか詳しい方8×32でもチャンクとして成立しているのかバグなのか教えていただきたいです。 8×32で成立していないのならバグとして処理して湧きそう作っていこうと思います。
+マインクラフトPCを買ってパスワードを忘れたので変更しましたそして公式サイトでログインは出来たのですがマイクラの方ではパスワードを打っても間違っていると言われますこれは時間を置いたらできるのでしょうか？
+マイクラVitaをやっています 最近高床式村人増殖機を作ったんですが 他の家にも扉おいてもいいですか？
+マイクラのコマンドです。春の総合エディタの属性のところに、ゾンビの救援があるんですが、発動方法が わかりません 方法教えてください！
+マインクラフトのサーバーを作ろうと思っていたのですが 公式サイトにてこちら↓https://s3.amazonaws.com/Minecraft.Download/versions/1.10.2/minecra... のほうをダウンロードしたのですが javaで開けなくて困っております… 1.8でつくったときはこうはならなかったのと、他のソフトではjavaで開ける状態です。
+Vita版のマイクラで、村人の増殖方法を教えてください！
+マイクラに関してです コマンドブロックで出せる着弾点が爆発する弓矢ありましたよね？ あれは1.9.4ではどうやって出すんですか？
+マイクラpeで質問です。マルチプレイしたいんですけどおすすめアプリを教えてください。回答お願いします。
+Minecraft マインクラフトで、急にログインできなくなりました。 Optifineのマントをかえて、あれ？ちゃんとマント変わったのかな？と思いいろんなとこおしたりしたからかもしれません。 そしたらランチャー起動したらこんな画面になってしまいました。 そして合ってるはずのアドとパスワードをうってもできません。 どうすればいいですか！？
+Minecraftでbukkitの自鯖を立てたのですが、 コマンドで例えば「/tp @p 111 111 111」とか打っても「@pは存在しません」？みたいなエラーメッセージでて使えません。 コマンドブロックでも同じで、プレイヤーネームを入力しないと発動しない感じです 一応鯖の設定でコマンドブロックは有効にしています PCはMac OSX EI capitanです 以前同じような質問をユーザーフォーラムで見たのですが これはmac特有の問題なのでしょうか？ 回答お願いします
+Minecraft のmodについてですIc2からic2exにしても大丈夫でしょうか？ よろしくお願いします
+マイクラPEでチャットを送るんですが、相手に表示されないらしいです。設定とかで表示できるようになりますか？
+キューブクラフトでラッキーブロック島をやりたいのですがやり方がわかりません。どこからmod?テクスチャ？を持って来ればいいかわかりません。教えてください！
+PC版マインクラフトについての質問です。 マルチプレイで配布ワールドを入れたいのですが、 オススメは無いでしょうか？出来るだけ多くあげて頂けるとありがたいです。 バージョンは1.8～1.10くらいでお願いします。
+マインクラフト Vita「HUDの表示」と「キャラクターを動かす」には、どのような意味があるのですか?
+神シードについてです。 リア友が村の周りにモンスタースポナー4つあるワールドを偶然生み出していましたが、シード値は結局教えてもらえませんでした。 このシード値を知っている方いたら教えてください!
+マインクラフトのマルチでのエラーについての質問です。 友達とマルチを行おうと思い、サーバーを起動したのですが、自分以外入れません。友達がアクセスしようとするとサーバー側のコメントに lost connection: Internal Exception: java.io.IOException: 既存の接続はリモート ホストに強制的に切断されました。 と表示されました。 ファイアーウォールの設定もしており、一時的に全て無効にして確認もしましたし、ポート開放もネットで確認した限りできていました。 ですが、できませんでした。 サーバースペックは CPU:core i7 940 メモリ: 16Gb GPU:GTX 750Ti です。
+---- Minecraft Crash Report ---- // Would you like a cupcake? Time: 16/08/05 23:59Description: Exception in server tick loop java.lang.NoClassDefFoundError: net/minecraft/client/particle/EntityFX at TF.item.ItemAk47.func_77659_a(ItemAk47.java:98) at net.minecraft.item.ItemStack.func_77957_a(ItemStack.java:146) at net.minecraft.server.management.ItemInWorldManager.func_73085_a(ItemInWorldManager.java:316) at net.minecraft.network.NetHandlerPlayServer.func_147346_a(NetHandlerPlayServer.java:539) at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:60) at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:9) at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) Caused by: java.lang.ClassNotFoundException: net.minecraft.client.particle.EntityFX at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) at java.lang.ClassLoader.loadClass(Unknown Source) at java.lang.ClassLoader.loadClass(Unknown Source) ... 13 more Caused by: java.lang.NullPointerException at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ... 15 more A detailed walkthrough of the error, its code path and all known details is as follows: --------------------------------------------------------------------------------------- -- System Details -- Details: Minecraft Version: 1.7.10 Operating System: Windows 8.1 (x86) version 6.3 Java Version: 1.8.0_66, Oracle Corporation Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation Memory: 142099808 bytes (135 MB) / 259522560 bytes (247 MB) up to 259522560 bytes (247 MB) JVM Flags: 0 total; AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94 FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 12 mods loaded, 12 mods active States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored UCHIJAAAA mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) UCHIJAAAA FML{7.10.99.99} [Forge Mod Loader] (minecraftforge.jar) UCHIJAAAA Forge{10.13.4.1558} [Minecraft Forge] (minecraftforge.jar) UCHIJAAAA net.minecraft.storagebox.mod_StorageBox{3.0.5} [StorageBox] (%5B1.7.10%5D%5Bforge1180%5Dmod_StorageBox_v3.0.5) UCHIJAAAA net.minecraft.scalar.cutall.mod_CutAllSMP{2.5.0} [CutAllSMP] (%5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0) UCHIJAAAA net.minecraft.scalar.digall.mod_DigAllSMP{2.3.0} [DigAllSMP] (%5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0) UCHIJAAAA net.minecraft.scalar.mineall.mod_MineAllSMP{2.6.1} [MineAllSMP] (%5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1) UCHIJAAAA craftguide{1.6.8.2} [CraftGuide] (CraftGuide-1.6.8.2-forge (2).jar) UCHIJAAAA inventorytweaks{1.58-147-645ca10} [Inventory Tweaks] (InventoryTweaks-1.58-147 (1).jar) UCHIJAAAA ayamitsu.mobconfinement{2.3.forge1121} [MobConfinement_EB] (MobConfinement-2.3.forge1121 (1).jar) UCHIJAAAA shincolle{1.7.10.rv25} [Shinkeiseikan Collection] (ShinColle-1.7.10.rv25 (2).jar) UCHIJAAAA TacticalFrame{4.0.0} [TacticalFrame Mod] (TacticalFrame1.7.10pre4.0.jar) Profiler Position: N/A (disabled) Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used Player Count: 1 / 20; [EntityPlayerMP['tetta1005'/281, l='world', x=579.36, y=87.0
+マインクラフトPCで、インベントリに所持しているアイテムを動くエフェクトにリソースパックを作りたいのですがどうすればいいですか？
+メガウォールズでチームが勝ったらいくらぐらいコインは貰えますか？至急おねがいします 100チップです
+PS4版マインクラフトでシード値306959825マップ大でプレイしててスポナーを探してます。ネットで調べているのですが座標通り場所に行ってもスポナーが見つからず。 マップサイズが変わると村の位置が変わると言うのはわかるのですが、スポナーの位置も変わるのでしょうか？ スケ、ゾンビ、蜘蛛のスポナーの座標わかる方いらっしゃいましたらよろしくお願いします。
+マインクラフト1.6.4で工業化モッドのBCアドオンの圧縮木エンジンを使用しています。コンフィグファイルからの設定を行い512倍木エンジンの作成は可能になったのですが、2048倍木エンジンが作れません。 これは仕様なのでしょうか？ どなたか情報をいただけたらと思います。
+友達に無料のマインクラフト(脱法じゃない)やつをいれてもらいました それでサーバーをやろうとしたんですができません無料のやつでもサーバーってできますか？ 体験版でもありません
+マインクラフトvitaで平地の広いSEEDってありますか？
+マインクラフトvitaで平地の広いSEEDってありますか？
+マイクラWiiUのレッドストーン回路について教えてください。 今、回路を使ってどんなことができるか調べています。 回路や装置で面白いものや凄いものがあったら、 是非教えてもらえませんか？よろしくお願いします。
+同じマスに複数種のアイテムが各1個あったらコマンドを実行（RS信号出力でもおk）できるようにしたいのですが…どうやったらできるでしょうか。
+マインクラフトのレゴの事なんですけど、私は前にlego minecraft the mineを購入しました。でも、箱の左下に書いてあるやつを作りたいんですけど、いくらググっても作り方が出てこないのでどこに書いてあるか教えて頂けませんでしょうか。下に画像貼っておきます。
+マイクラで建築をしたいのですが何かいい物があれば教えてください。 サバイバルでもクリエイティブでも構いません。 出来れば、画像などを添えて頂ければうれしいです。
+マイクラPEで村をはっけんしたのですがこの画像奥の丸石で作られた塔の様なものはなんですか？
+https://github.com/fin-alice/McMod-AdvFiller このサイトでadvanced fillarの1.7.10移植版が配布されているようですが、どのファイルがmod本体に当たるのでしょうか。
+xmodgamesを起動してマイクラをやろうとしたら こんなのが出てきます。英語が苦手なのでわかる人はよろしくお願いします。
+マイクラPCをやって居ります。現在タイマー水流式天空トラップタワーを作ろうと 思っているのですが、僕のPCはかなり低スペックで optifineを入れているのにもかかわらず、モブの動きが 鈍い状態です。なので僕のPCでタイマー水流式は 大量に水流がでるのでカクカクになるますよね？ なので、湧き層の種類を変えようと思っています。 どんなものがいいですか？
+マインクラフトの圧縮木エンジン改「黒猫、黒烏」は、どこでダウンロードするんですか？マイクラ1.2.5
+マイクラで、エンダードラゴンとウィザーではどちらが強いですか？
+マインクラフトVITA版何ですが、スライムはどういうところにわくんですか?教えて下さい。出来ればスライムがわくところの特徴とかも教えて下さい。あと、何ます下にわくとか、何ますだとわくとか、教えて下さい。回答をお待ちしてます。出来れば早くしてください。
+psvita版マイクラの質問です。 村人の鍛冶屋には、何種類いるのですか? 宜しければ教えてください。
+このスペックでマインクラフトできますか？バニラで特にmodは入れる気はありません。 テクスチャは変えれたらいいな、ぐらいです カクつかない程度なら買おうかなと思っています
+PlayStationVITAの左スティックの調子が悪いのですがどうやったら直りますか？なにもしなくても勝手に反応して、マイクラとかやってても後ろに下がれないし勝手に前に進みます。。。youtubeで直しかたとか見て掃除したりしたけどできません。。見た目は普通で2,3ヵ月前位からずっといじってるんですけどなおりません。。アップデートもちゃんとしてるんです。。 助けてください。
+マイクラで自分のプレイヤー名を見るにはどうすればいいでしょうか？ 後、Macのマイクラのコマンドでアンダーバーがうてないんですけど
+マイクラPCのハイピクセルサーバーについて質問です。 ハイピクセルで、何か面白いミニゲームはありますか？ スカイウォーズやTNTラン以外で何が面白いですか？できればそれのある場所も、教えて下さい。 回答お願いします。
+マイクラの旗で、Ｐの字を作る方法を教えてください。レシピかコマンド、どちらでもいいです。 バージョン1.10.２です
+Minecraftが購入出来ません…購入にはジャパンネットのVISAのクレジットカードを使おうとしました。 一度アカウントを作り直して購入の手順を踏んでも注文処理エラーが出てクレジットカードの設定を見直せ と出てきます｡ 何日か置いてトライしたらログイン後エラー画面が出てstoreに進めません。ブラウザを変えても変化無しでした。 原因を教えてください。購入方法を変えなきゃいけないのでしょうか…
+現在のマイクラpeは、天空トラップタワーを作る事は可能でしょうか？
+マインクラフトPE版(スマホアプリ)についての質問なのですが、よくYouTuberがやっている配布ワールドはできるのでしょうか？もし、できるのであればやり方も教えていただけると嬉しいです。
+マインクラフトPEでマグマと村があるシード値を教えてください。バージョンは最新です。
+マイクラでカスタムＮＰＣで作ったスキンを入れるとすきんがめちゃめちゃになって表示されるんですか原因がわかりません。 原因が分かる人がいたら教えてください
+マイクラのアップデート情報についてsnapshot16w32bの詳細が載ってるサイトありませんか? 英語わから無いので海外ウィキ以外でおねがいします
+【至急です】以前マイクラ体験版をプレイしようと思いMojangのアカウントを作りました。 少し時間が空いてしまいいよいよ正式版のマイクラを買おうと思っているのですが、少し前にメアドを諸事情があり変更してしまったので新たにアカウントを作り直そうと思うのですが、問題はないでしょうか…？ このまま新しくアカウントを作ってマインクラフトをプレイすることは可能でしょうか？ 回答お待ちしております。
+マインクラフトpeについて質問です。 バージョン15.6なんですけどタイトル画面に自分のアバターが反映されないんですけどどうすればいいですか？
+ps4のマインクラフトについてなんですが、ワールドの広さって無限ですか？
+盆小遣いでpcとMinecraftを買いました。そこでこれだけはやっとけみたいなmodはありますか？
+マインクラフトPEのrealmsの月額利用料の支払いにiTunes cardは使えますか？
+iPodtouchのマイクラ有料版をダウンロードしたんですけどセーブの仕方がわかりません！教えてくれる人はいませんか？
+マインクラフトpeで、配布ワールドが入れられるということで、このリンク(http://www.appbank.net/2016/08/03/iphone-application/1235825.php)を検索して、このやりかたでやって、このリンク(http://wiki.mcpe.jp/lite/d/%A5%EF%A1%BC%A5%EB%A5%C9%C7%DB%C9%DB)の舞京都 ver.3をダウンロードしてMinecraftwoldsにいれたんですけど、でてきませんでした。このやり方って間違いですか？間違いだったら、正しい方法教えてください
+マインクラフトについて質問です。PSVITA版のマイクラをプレイしているのですが、先ほど地図を落としてしまい、見つからなくなってしまいました。 そこでなんですが、兄に協力してもらおうと思います。 兄に私のワールドに来てもらい、兄から地図を受け取ることって可能ですか？ ちなみに兄とはマルチプレイした経験はありません。
+「マインクラフトPE」平地なシード値教えてください
+アナイアレーションの職業って何がオススメですか？3っほど教えてください。
+マイクラのスキンでガンダムのバンシィのスキンってありますか？調べたんですけど見つからなくって
+今日、マインクラフトを起動したらゲーム起動後（ワールド内）画面上に認証コードの文字が点滅し数秒後英文びっしりの画面になるのですが原因分かる方いませんか？昨日、MOD入れながらゲーム起動確認してた時は普通にプレイできました
+マインクラフトpeで質問です！サバイバルの初心者何ですけど、レッドストーンが81個あります。何を作ればいいですか？教えて下さい。
+http://www.dell.com/jp/p/inspiron-15-5559-laptop/pd?oc=CAI2372BST5S08ON1KJP&model_id=inspiron-15-5559-laptop&dgc=LS&cid=259369&lid=5739335&acd=/Vv6e0WKODg-Ig0Eiozf0Oj/kfYkFJ2KEAこのノートpcでマイクラぬるぬる遊べますかね？
+助けてくださいいまMinecraftを開いたらログイン画面が出てきて正しく打ったのですが、ログインが出来ないと言われ困惑していますそれでメールを見たらメールアドレス、パスワード共に変えられていました。 ちなみに乗っ取り人のメールアドレスはYahoo!です。 で内容は Hello, The email address associated with your Mojang account has been changed to 〇〇〇〇〇〇@yahoo.com. If you were not the one to request this change, your account may have been compromised. To dispute the change follow this link https://〇〇〇〇〇〇〇〇〇〇〇〇 Take care, Mojang. です。 届いたのは今日の14時18分です 〜此処から本題〜 1.これでもうMinecraftはできないのでしょうか? 2.Minecraftの名前も変えられていてその変えた時刻は分かるもの何でしょうか? 3.これで僕のMinecraftのパスワードメールアドレスも知られているのでしょうか? すべての解決策を教えてください!!! 並べく早くお願いします！不安で仕方ありません!!
+マインクラフトPC版についての質問です！マインクラフトの体験版ばかりをやって楽しんでいたんですが、スキンを体験版でも変えれると聞いて何度化挑戦してみたんですがダメでした…なのでそろそろマインクラフト製品版もほしいなあ～と思っていたのでマインクラフト製品版を買おう！と決めたのですが調べていて思ったんですがマインクラフトPC版はプリペイドカードで買ってそのまま公式サイトからインストールするタイプのではなくマインクラフトPCソフトのタイプはないのでしょうか？ない場合はPCソフト版のマインクラフトが出るまで買わずに体験版をこれからもやっていこうと思っているのですが、分かる方どうか教えてください！お願いしますm(_ _)m長文になってしまいすみません
