@@ -1,0 +1,4 @@
+#/bin/sh
+
+cat question* > all_question.txt
+cat answer* > all_answer.txt
